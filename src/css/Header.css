@@ -1,0 +1,19 @@
+.header {
+  color: #fff;
+  min-height: 7vh;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.10));
+}
+
+ul li {
+  display: inline-block; /* puts items beside each other */
+}
+
+ul li a {
+  text-decoration: none; /* remove all decorations */
+  color: #000; /* color of text */
+  font-size: 2vh; /* size of text */
+  margin: 20px; /* spaces between texts */
+}

@@ -1,0 +1,28 @@
+.body1 {
+    min-height: 80vh;
+    background-color: brown;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.intro {
+
+}
+
+.intro-name {
+    font-size: 10vh;
+    text-align: center;
+    letter-spacing: -2px;
+    background-color: aqua;
+}
+
+.intro-description {
+    font-size: 3vh;
+    text-align: center;
+    background-color: blueviolet;
+    padding-top: 2vh;
+    padding-bottom: 40vh;
+}
