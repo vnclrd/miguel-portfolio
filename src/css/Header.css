@@ -1,5 +1,7 @@
 .header {
-  color: #fff;
+  top: 0;
+  position: fixed;
+  width: 100%;
   min-height: 7vh;
   display: flex; 
   align-items: center;
@@ -13,7 +15,7 @@ ul li {
 
 ul li a {
   text-decoration: none; /* remove all decorations */
-  color: #000; /* color of text */
+  color: rgb(36, 36, 36); /* color of text */
   font-size: 2vh; /* size of text */
   margin: 20px; /* spaces between texts */
 }

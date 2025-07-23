@@ -1,6 +1,5 @@
 .home {
-    min-height: 80vh;
-    background-color: brown;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -8,16 +7,29 @@
 }
 
 .intro-name {
-    background-color: brown;
+    color: rgb(36, 36, 36);
     font-size: 10vh;
     text-align: center;
+    letter-spacing: -5px;
+    margin-top: 25vh;
+}
+
+.intro-name-color {
+    color: green;
     letter-spacing: -2px;
 }
 
 .intro-description {
-    background-color: brown;
     font-size: 3vh;
     text-align: center;
-    padding-top: 1.5vh;
-    padding-bottom: 40vh;
+    padding-top: 0.5vh;
+    margin-bottom: 7vh;
+    color: rgb(36, 36, 36);
+}
+
+.get-started {
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 30vh;
 }
