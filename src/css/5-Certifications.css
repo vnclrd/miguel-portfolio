@@ -1,0 +1,8 @@
+.certifications {
+    min-height: 80vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

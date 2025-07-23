@@ -1,0 +1,8 @@
+.experience {
+    min-height: 80vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

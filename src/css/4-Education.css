@@ -1,0 +1,8 @@
+.education {
+    min-height: 80vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
