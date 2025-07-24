@@ -36,13 +36,13 @@ function Header() {
         alignItems: 'center',
         display: 'flex',
         minHeight: '7vh',
-        opacity: scrolled ? '0.75' : '1',
+        opacity: scrolled ? '0.50' : '1',
         borderRadius: scrolled ? 25 : 0,
         marginTop: scrolled ? '25px' : '0px',
         width: scrolled ? '45%' : '100%',
         filter: scrolled
-            ? 'drop-shadow(0 0 10px rgba(0, 0, 0, 0.15))'
-            : 'drop-shadow(0 0 25px rgba(0, 0, 0, 0.10))',
+            ? 'drop-shadow(0 0 10px rgba(0, 0, 0, 1))'
+            : 'drop-shadow(0 0 25px rgba(0, 0, 0, 0.50))',
         position: 'fixed',
         top: 0,
         left: '50%',

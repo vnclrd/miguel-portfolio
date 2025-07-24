@@ -1,41 +1,19 @@
 import Header from './jsx/Header.jsx'
-import Certifications from './jsx/Certifications.jsx'
+import Home from './jsx/Home.jsx'
+import About from './jsx/About.jsx'
 import Footer from './jsx/Footer.jsx'
 import './css/App.css'
 import './css/Header.css'
-import './css/1-Home.css'
-import './css/2-About.css'
-import './css/3-Experience.css'
-import './css/4-Skills.css'
-import './css/5-Education.css'
-import './css/6-Certifications.css'
+import './css/Home.css'
+import './css/About.css'
 import './css/Footer.css'
 
 function App() {
   return (
     <>
       <Header />
-
-      <div section="home" class="home">
-        <div class="intro">
-
-          <h1 class="intro-name"><b>Hi, I'm</b><b class="intro-name-color"> Miguel</b></h1>
-          <p class="intro-description">
-            Welcome to my portfolio website.
-          </p>
-          <button class="get-started">Get Started</button>
-        </div>
-      </div>
-
-      <div section="about" class="about">About</div>
-
-      <div section="experience" class="experience">Experience</div>
-
-      <div section="skills" class="skills">Skills</div>
-
-      <div section="education" class="education">Education</div>
-
-      <Certifications />
+      
+      <Home />
 
       <Footer />
     </>
