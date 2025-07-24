@@ -1,4 +1,6 @@
 import Header from './jsx/Header.jsx'
+import Certifications from './jsx/Certifications.jsx'
+import Footer from './jsx/Footer.jsx'
 import './css/App.css'
 import './css/Header.css'
 import './css/1-Home.css'
@@ -7,6 +9,7 @@ import './css/3-Experience.css'
 import './css/4-Skills.css'
 import './css/5-Education.css'
 import './css/6-Certifications.css'
+import './css/Footer.css'
 
 function App() {
   return (
@@ -32,8 +35,10 @@ function App() {
 
       <div section="education" class="education">Education</div>
 
-      <div section="certifications" class="certifications">Certifications</div>
-      </>
+      <Certifications />
+
+      <Footer />
+    </>
   )
 }
 

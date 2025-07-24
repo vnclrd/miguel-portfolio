@@ -49,13 +49,13 @@ function Header() {
         transform: 'translateX(-50%)',
         transition: 'all 0.3s ease'
     }}>
-      <ul>
-        <li><a href="home">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="experience">Experience</a></li>
-        <li><a href="skills">Skills</a></li>
-        <li><a href="education">Education</a></li>
-        <li><a href="certifications">Certifications</a></li>
+      <ul className="header-ul">
+        <li className="header-li"><a href="home" className="header-a">Home</a></li>
+        <li className="header-li"><a href="about" className="header-a">About</a></li>
+        <li className="header-li"><a href="experience" className="header-a">Experience</a></li>
+        <li className="header-li"><a href="skills" className="header-a">Skills</a></li>
+        <li className="header-li"><a href="education" className="header-a">Education</a></li>
+        <li className="header-li"><a href="certifications" className="header-a">Certifications</a></li>
       </ul>
     </div>
   );

@@ -1,14 +1,14 @@
-ul {
+.header-ul {
   font-size: 2vh; /* size of text */
   background: none;
 }
 
-li {
+.header-li {
   display: inline-block; /* puts items beside each other */
   background: none;
 }
 
-a {
+.header-a {
   text-decoration: none; /* remove all decorations */
   color: rgb(36, 36, 36); /* color of text */
   margin: 20px; /* spaces between texts */
