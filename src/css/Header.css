@@ -1,10 +1,16 @@
-li {
-  display: inline-block; /* puts items beside each other */
+ul {
+  font-size: 2vh; /* size of text */
+  background: none;
 }
 
-ul li a {
+li {
+  display: inline-block; /* puts items beside each other */
+  background: none;
+}
+
+a {
   text-decoration: none; /* remove all decorations */
   color: rgb(36, 36, 36); /* color of text */
-  font-size: 2vh; /* size of text */
   margin: 20px; /* spaces between texts */
+  background: none;
 }
