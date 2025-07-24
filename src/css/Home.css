@@ -15,7 +15,8 @@
 }
 
 .intro-name-color {
-    color: rgb(147,51,234);
+    /* color: rgb(147,51,234); */
+    color: rgb(29, 29, 31);
     letter-spacing: -2px;
 }
 

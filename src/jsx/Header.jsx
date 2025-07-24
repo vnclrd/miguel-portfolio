@@ -36,7 +36,7 @@ function Header() {
         alignItems: 'center',
         display: 'flex',
         minHeight: '7vh',
-        opacity: scrolled ? '0.50' : '1',
+        opacity: scrolled ? '0.75' : '1',
         borderRadius: scrolled ? 25 : 0,
         marginTop: scrolled ? '25px' : '0px',
         width: scrolled ? '45%' : '100%',
