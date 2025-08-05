@@ -9,18 +9,30 @@ function Projects() {
         <p className='date'>July 2025 - Present</p>
         <p className='description'>
           TrainIn is an automated attendance system designed to record and track
-          the attendance of individuals at organized events. It uses NFC cards
+          the attendance of individuals at organized events. It uses NFC cards/chips
           along with an external reader device to provide a seamless and
           efficient check-in and check-out process. The collected data can then
           be compiled into summaries and reports for easy analysis and management.
         </p>
         <div className='technologies'>
-          <div className="tech-1"><img src='/images/instaprint.jpg' />React Native</div>
-          <div className="tech-1">JavaScript</div>
-          <div className="tech-1">TypeScript</div>
-          <div className="tech-1">React Native</div>
-          <div className="tech-1">React Native</div>
-          <div className="tech-1">React Native</div>
+          <div className="tech-1">
+            <image className="react-js" />React Native
+          </div>
+          <div className="tech-1">
+            <image className="js" />JavaScript
+          </div>
+          <div className="tech-1">
+            <image className="ts" />TypeScript
+          </div>
+          <div className="tech-1">
+            <image className="html" />HTML
+          </div>
+          <div className="tech-1">
+            <image className="css" />CSS
+          </div>
+          <div className="tech-1">
+            <image className="sqlite" />SQLite
+          </div>
         </div>
       </div>
       

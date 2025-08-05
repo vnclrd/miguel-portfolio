@@ -46,18 +46,51 @@
   justify-items: center;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 .tech-1 {
   display: flex;
-  width: 100px;
+  width: 110px;
   height: 25px;
-  background-color: wheat;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
   border-radius: 25px;
   font-size: 12px;
   align-items: center;
   justify-content: center;
+}
+
+.react-js, .js, .ts, .html, .css, .sqlite {
+  background-size: contain;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.react-js {
+  background-image: url('/public/images/logos/react-js.png');
+}
+
+.js {
+  background-image: url('/public/images/logos/js.png');
+}
+
+.ts {
+  background-image: url('/public/images/logos/ts.png');
+}
+
+.html {
+  background-image: url('/public/images/logos/html.png');
+}
+
+.css {
+  background-image: url('/public/images/logos/css.png');
+}
+
+.sqlite {
+  background-image: url('/public/images/logos/sqlite.svg');
 }
 
 h1 {
