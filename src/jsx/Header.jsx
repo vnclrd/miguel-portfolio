@@ -54,7 +54,8 @@ function Header() {
         top: 0,
         left: '50%',
         transform: 'translateX(-50%)',
-        transition: 'all 0.3s ease'
+        transition: 'all 0.3s ease',
+        zIndex: 1000,
     }}>
       <ul className="header-ul">
         <li className="header-li">

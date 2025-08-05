@@ -60,7 +60,7 @@
   justify-content: center;
 }
 
-.react-js, .js, .ts, .html, .css, .sqlite {
+.react, .js, .ts, .html, .css, .sqlite, .python, .mysql {
   background-size: contain;
   background-position: center;
   width: 15px;
@@ -69,8 +69,8 @@
   margin-right: 5px;
 }
 
-.react-js {
-  background-image: url('/public/images/logos/react-js.png');
+.react {
+  background-image: url('/public/images/logos/react.png');
 }
 
 .js {
@@ -91,6 +91,14 @@
 
 .sqlite {
   background-image: url('/public/images/logos/sqlite.svg');
+}
+
+.python {
+  background-image: url('/public/images/logos/python.png');
+}
+
+.mysql {
+  background-image: url('/public/images/logos/mysql.png');
 }
 
 h1 {

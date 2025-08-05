@@ -16,7 +16,7 @@ function Projects() {
         </p>
         <div className='tools'>
           <div className="tool-1">
-            <image className="react-js" />React Native
+            <image className="react" />React Native
           </div>
           <div className="tool-1">
             <image className="js" />JavaScript
@@ -49,12 +49,24 @@ function Projects() {
           GCash with integration with PayMongo.
         </p>
         <div className='tools'>
-          <div className="tool-1">React Native</div>
-          <div className="tool-1">JavaScript</div>
-          <div className="tool-1">TypeScript</div>
-          <div className="tool-1">React Native</div>
-          <div className="tool-1">React Native</div>
-          <div className="tool-1">React Native</div>
+          <div className="tool-1">
+            <image className="python" />Python
+          </div>
+          <div className="tool-1">
+            <image className="js" />JavaScript
+          </div>
+          <div className="tool-1">
+            <image className="react" />React JS
+          </div>
+          <div className="tool-1">
+            <image className="html" />HTML
+          </div>
+          <div className="tool-1">
+            <image className="css" />CSS
+          </div>
+          <div className="tool-1">
+            <image className="mysql" />MySQL
+          </div>
         </div>
       </div>
 
