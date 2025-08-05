@@ -14,23 +14,23 @@ function Projects() {
           efficient check-in and check-out process. The collected data can then
           be compiled into summaries and reports for easy analysis and management.
         </p>
-        <div className='tools'>
-          <div className="tool-1">
+        <div className='tools-container'>
+          <div className="tools">
             <image className="react" />React Native
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="js" />JavaScript
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="ts" />TypeScript
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="html" />HTML
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="css" />CSS
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="sqlite" />SQLite
           </div>
         </div>
@@ -48,23 +48,23 @@ function Projects() {
           printers, coin acceptors and change system with cashless payment with
           GCash with integration with PayMongo.
         </p>
-        <div className='tools'>
-          <div className="tool-1">
+        <div className='tools-container'>
+          <div className="tools">
             <image className="python" />Python
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="js" />JavaScript
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="react" />React JS
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="html" />HTML
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="css" />CSS
           </div>
-          <div className="tool-1">
+          <div className="tools">
             <image className="mysql" />MySQL
           </div>
         </div>
@@ -82,13 +82,13 @@ function Projects() {
           efficient check-in and check-out process. The collected data can then
           be compiled into summaries and reports for easy analysis and management.
         </p>
-        <div className='tools'>
-          <div className="tool-1">React Native</div>
-          <div className="tool-1">JavaScript</div>
-          <div className="tool-1">TypeScript</div>
-          <div className="tool-1">React Native</div>
-          <div className="tool-1">React Native</div>
-          <div className="tool-1">React Native</div>
+        <div className='tools-container'>
+          <div className="tools">React Native</div>
+          <div className="tools">JavaScript</div>
+          <div className="tools">TypeScript</div>
+          <div className="tools">React Native</div>
+          <div className="tools">React Native</div>
+          <div className="tools">React Native</div>
         </div>
       </div>
 
