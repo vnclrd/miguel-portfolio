@@ -25,6 +25,10 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  function scrollToProjects() {
+    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })
+  }
+
   // elements of the header
   return (
     // style={} applies inline styles directly to the element
@@ -49,12 +53,27 @@ function Header() {
         transition: 'all 0.3s ease'
     }}>
       <ul className="header-ul">
-        <li className="header-li"><a href="home" className="header-a">Home</a></li>
-        <li className="header-li"><a href="about" className="header-a">About</a></li>
-        <li className="header-li"><a href="experience" className="header-a">Experience</a></li>
-        <li className="header-li"><a href="skills" className="header-a">Skills</a></li>
-        <li className="header-li"><a href="education" className="header-a">Education</a></li>
-        <li className="header-li"><a href="certifications" className="header-a">Certifications</a></li>
+        <li className="header-li">
+          <a href="home" className="header-a">Home</a>
+        </li>
+        <li className="header-li">
+          <a href="about" className="header-a">About</a>
+        </li>
+        <li className="header-li">
+          <a href="#" onClick={scrollToProjects} className="header-a">Projects</a>
+        </li>
+        <li className="header-li">
+          <a href="experience" className="header-a">Experience</a>
+        </li>
+        <li className="header-li">
+          <a href="skills" className="header-a">Skills</a>
+        </li>
+        <li className="header-li">
+          <a href="education" className="header-a">Education</a>
+        </li>
+        <li className="header-li">
+          <a href="certifications" className="header-a">Certifications</a>
+        </li>
       </ul>
     </div>
   );
