@@ -3,10 +3,11 @@ function Projects() {
     <div id='projects' className='projects'>
 
       <div className='project-1'>
-        <div className='image-container'></div>
+        <div className='image-container-p1'></div>
         <h1>TrainIn</h1>
         <p>Automated Attendance System</p>
-        <p>
+        <p class='date'>July 2025 - Present</p>
+        <p class='description'>
           TrainIn is an automated attendance system designed to record and track
           the attendance of individuals at organized events. It uses NFC cards
           along with an external reader device to provide a seamless and
@@ -16,10 +17,11 @@ function Projects() {
       </div>
       
       <div className='project-2'>
-        <div className='image-container'></div>
-        <h1>Project 2</h1>
-        <p>Automated Attendance System</p>
-        <p>
+        <div className='image-container-p2'></div>
+        <h1>InstaPrint</h1>
+        <p>Printing Kiosk</p>
+        <p class='date'>July 2025 - Present</p>
+        <p class='description'>
           TrainIn is an automated attendance system designed to record and track
           the attendance of individuals at organized events. It uses NFC cards
           along with an external reader device to provide a seamless and
@@ -29,10 +31,11 @@ function Projects() {
       </div>
 
       <div className='project-3'>
-        <div className='image-container'></div>
+        <div className='image-container-p3'></div>
         <h1>Project 3</h1>
         <p>Automated Attendance System</p>
-        <p>
+        <p class='date'>July 2025 - Present</p>
+        <p class='description'>
           TrainIn is an automated attendance system designed to record and track
           the attendance of individuals at organized events. It uses NFC cards
           along with an external reader device to provide a seamless and

@@ -9,7 +9,7 @@
 
 .project-1, .project-2, .project-3 {
   max-width: 400px;
-  max-height: 600px;
+  max-height: 700px;
   background-color: rgb(255, 255, 255);
   margin: 25px;
   border-radius: 25px;
@@ -17,8 +17,7 @@
   margin-top: 100px
 }
 
-.image-container {
-  background-image: url('/public/images/trainin-aas.jpg');
+.image-container-p1, .image-container-p2, .image-container-p3 {
   background-size: cover;
   background-position: center;
   min-width: 100px;
@@ -26,6 +25,18 @@
   background-color: red;
   margin: 25px;
   border-radius: 15px;
+}
+
+.image-container-p1 {
+  background-image: url('/public/images/trainin-aas.jpg');
+}
+
+.image-container-p2 {
+  background-image: url('/public/images/instaprint.jpg');
+}
+
+.image-container-p3 {
+  background-image: url('/public/images/instaprint.jpg');
 }
 
 h1 {
@@ -37,4 +48,13 @@ h1 {
 p {
   text-align: justify;
   margin: 25px;
+}
+
+p.date {
+  margin-top: -25px;
+  font-style: italic;
+}
+
+p.description {
+  margin-top: -10px;
 }
