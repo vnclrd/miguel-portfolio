@@ -15,7 +15,7 @@ function Projects() {
           be compiled into summaries and reports for easy analysis and management.
         </p>
         <div className='technologies'>
-          <div className="tech-1">React Native</div>
+          <div className="tech-1"><img src='/images/instaprint.jpg' />React Native</div>
           <div className="tech-1">JavaScript</div>
           <div className="tech-1">TypeScript</div>
           <div className="tech-1">React Native</div>

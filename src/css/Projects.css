@@ -28,15 +28,15 @@
 }
 
 .image-container-p1 {
-  background-image: url('/public/images/trainin-aas.jpg');
+  background-image: url('/public/images/projects/trainin-aas.jpg');
 }
 
 .image-container-p2 {
-  background-image: url('/public/images/instaprint.jpg');
+  background-image: url('/public/images/projects/instaprint.jpg');
 }
 
 .image-container-p3 {
-  background-image: url('/public/images/instaprint.jpg');
+  background-image: url('/public/images/projects/instaprint.jpg');
 }
 
 .technologies {
@@ -46,7 +46,7 @@
   justify-items: center;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .tech-1 {
@@ -55,7 +55,7 @@
   height: 25px;
   background-color: wheat;
   border-radius: 25px;
-  font-size: small;
+  font-size: 12px;
   align-items: center;
   justify-content: center;
 }
