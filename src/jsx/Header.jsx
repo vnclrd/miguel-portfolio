@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 
-// define the function
 function Header() {   
 
   // scrolled = where page is scrolled (true/false)
@@ -22,7 +21,7 @@ function Header() {
     window.addEventListener("scroll", handleScroll)
     
     // cleanup function
-    // removes scroll listener when components is removed.
+    // removes scroll listener when components are removed.
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

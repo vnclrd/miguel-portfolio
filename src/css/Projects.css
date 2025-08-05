@@ -1,0 +1,18 @@
+.projects {
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.project-1, .project-2, .project-3 {
+  min-width: 400px;
+  min-height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin: 25px;
+  border-radius: 25px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+  margin-top: 100px
+}
