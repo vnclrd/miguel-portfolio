@@ -9,7 +9,7 @@
 
 .project-1, .project-2, .project-3 {
   max-width: 400px;
-  max-height: 700px;
+  height: 625px;
   background-color: rgb(255, 255, 255);
   margin: 25px;
   border-radius: 25px;
@@ -39,9 +39,31 @@
   background-image: url('/public/images/instaprint.jpg');
 }
 
+.technologies {
+  display: grid;
+  grid-template-columns: 150px 50px 150px;
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech-1 {
+  display: flex;
+  width: 100px;
+  height: 25px;
+  background-color: wheat;
+  border-radius: 25px;
+  font-size: small;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
   text-align: left;
   margin-left: 25px;
+  margin-top: -10px;
   margin-bottom: -25px;
 }
 
@@ -57,4 +79,5 @@ p.date {
 
 p.description {
   margin-top: -10px;
+  font-size: 15px;
 }
