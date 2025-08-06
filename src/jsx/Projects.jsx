@@ -44,9 +44,9 @@ function Projects() {
         <p className='description'>
           Developed a full-stack printing kiosk that calculates document pricing
           based on page count, color, and paper size, enabling automated,
-          affordable printing for students and faculty. Implemented hardware interaction with
-          printers, coin acceptors and change system with cashless payment with
-          GCash with integration with PayMongo.
+          affordable printing for students and faculty. Implemented hardware
+          interaction with printers, coin acceptors and change system with cashless
+          payment with GCash with integration with PayMongo.
         </p>
         <div className='tools-container'>
           <div className="tools">
@@ -72,23 +72,32 @@ function Projects() {
 
       <div className='project-3'>
         <div className='image-container-p3'></div>
-        <h1>Project 3</h1>
-        <p>Project 3 Subtitle</p>
-        <p className='date'>Start Date - End Date</p>
+        <h1>ShouldU</h1>
+        <p>Summarization App</p>
+        <p className='date'>July 2023 - August 2023</p>
         <p className='description'>
-          TrainIn is an automated attendance system designed to record and track
-          the attendance of individuals at organized events. It uses NFC cards
-          along with an external reader device to provide a seamless and
-          efficient check-in and check-out process. The collected data can then
-          be compiled into summaries and reports for easy analysis and management.
+          ShouldU is a simple and straightforward application that helps you make
+          up your mind on something you want to do. It summarizes all related
+          information that you give to the application with simple questions that
+          can be answered with "yes" and "no" and compiles the information into a
+          downloadable text file to easily view the summary the your answers.
         </p>
         <div className='tools-container'>
-          <div className="tools">React Native</div>
-          <div className="tools">JavaScript</div>
-          <div className="tools">TypeScript</div>
-          <div className="tools">React Native</div>
-          <div className="tools">React Native</div>
-          <div className="tools">React Native</div>
+          <div className="tools-apache-cordova">
+            <image className="apache-cordova" />Apache Cordova
+          </div>
+          <div className="tools">
+            <image className="js" />JavaScript
+          </div>
+          <div className="tools">
+            <image className="html" />HTML
+          </div>
+          <div className="tools">
+            <image className="css" />CSS
+          </div>
+          <div className="tools">
+            <image className="mysql" />MySQL
+          </div>
         </div>
       </div>
 

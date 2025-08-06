@@ -38,7 +38,7 @@
 }
 
 .image-container-p3 {
-  background-image: url('/public/images/instaprint.jpg');
+  background-image: url('/public/images/shouldu.jpg');
 }
 
 h1 {
@@ -84,7 +84,7 @@ p.description {
   justify-content: center;
 }
 
-.react, .js, .ts, .html, .css, .sqlite, .python, .mysql {
+.react, .js, .ts, .html, .css, .sqlite, .python, .mysql, .apache-cordova {
   background-size: contain;
   background-position: center;
   width: 15px;
@@ -123,4 +123,19 @@ p.description {
 
 .mysql {
   background-image: url('/public/images/logos/mysql.png');
+}
+
+.tools-apache-cordova {
+  display: flex;
+  width: 110px;
+  height: 25px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.25));
+  border-radius: 25px;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.apache-cordova {
+  background-image: url('/public/images/logos/apache-cordova.png');
 }
