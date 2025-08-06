@@ -1,15 +1,20 @@
+import linkedinLogo from '/images/logos/linkedin.png'
+import githubLogo from '/images/logos/github.png'
+
 function Home() {
   return (
     <div id="home" className="home">
-        <div class="intro">
-
-          <h1 class="intro-name"><b>Hi, I'm</b><b class="intro-name-color"> Miguel</b></h1>
-          <p class="intro-description">
-            Welcome to my portfolio website.
-          </p>
-          <button class="get-started">Get Started</button>
-        </div>
+      <div>
+        <h1 className="intro-name"><b>Hi, I'm Miguel.</b></h1>
+        <p className="profession">I'm a Web Developer</p>
+        <a href='https://www.linkedin.com/in/vnclrd/'>
+          <img src={linkedinLogo} className='logo-container' />
+        </a>
+        <a href='https://github.com/vnclrd'>
+          <img src={githubLogo} className='logo-container' />
+        </a>
       </div>
+    </div>
   )
 }
 
