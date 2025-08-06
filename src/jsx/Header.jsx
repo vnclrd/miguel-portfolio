@@ -29,6 +29,10 @@ function Header() {
     document.getElementById('home').scrollIntoView({ behavior: 'smooth' })
   }
 
+  function scrollToAbout() {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' })
+  }
+
   function scrollToProjects() {
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })
   }
@@ -62,7 +66,7 @@ function Header() {
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToHome() }} className="header-a">Home</a>
         </li>
         <li className="header-li">
-          <a href="#" className="header-a">About</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }} className="header-a">About</a>
         </li>
         <li className="header-li">
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToProjects() }} className="header-a">Projects</a>

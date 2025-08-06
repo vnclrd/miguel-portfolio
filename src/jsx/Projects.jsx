@@ -5,7 +5,7 @@ function Projects() {
       <div className='project-1'>
         <div className='image-container-p1'></div>
         <h1>TrainIn</h1>
-        <p>Automated Attendance System</p>
+        <p>Automated Attendance System App</p>
         <p className='date'>July 2025 - Present</p>
         <p className='description'>
           TrainIn is an automated attendance system designed to record and track
@@ -39,7 +39,7 @@ function Projects() {
       <div className='project-2'>
         <div className='image-container-p2'></div>
         <h1>InstaPrint</h1>
-        <p>Printing Kiosk</p>
+        <p>Self-Service Printing Kiosk</p>
         <p className='date'>September 2023 - June 2025</p>
         <p className='description'>
           Developed a full-stack printing kiosk that calculates document pricing
