@@ -50,9 +50,9 @@ function Header() {
         opacity: scrolled ? '0.75' : '1',
         borderRadius: scrolled ? 25 : 0,
         marginTop: scrolled ? '25px' : '0px',
-        width: scrolled ? '45%' : '100%',
+        width: scrolled ? '50%' : '100%',
         filter: scrolled
-            ? 'drop-shadow(0 0 10px rgba(0, 0, 0, 1))'
+            ? 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.50))'
             : 'drop-shadow(0 0 0 rgba(0, 0, 0, 0.50))',
         position: 'fixed',
         top: 0,
