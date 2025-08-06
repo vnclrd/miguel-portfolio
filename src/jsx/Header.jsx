@@ -53,7 +53,7 @@ function Header() {
         width: scrolled ? '45%' : '100%',
         filter: scrolled
             ? 'drop-shadow(0 0 10px rgba(0, 0, 0, 1))'
-            : 'drop-shadow(0 0 25px rgba(0, 0, 0, 0.50))',
+            : 'drop-shadow(0 0 0 rgba(0, 0, 0, 0.50))',
         position: 'fixed',
         top: 0,
         left: '50%',
