@@ -1,3 +1,4 @@
+import '../css/Header.css'
 import { useEffect, useState } from 'react'
 
 function Header() {   

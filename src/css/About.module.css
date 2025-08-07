@@ -14,11 +14,11 @@
     z-index: 1000;
 }
 
-.photo-container {
+.photoContainer {
     display: flex;
     position: absolute;
-    background-color: rgb(50, 50, 50);
-    width: 50%;
+    background-color: rgb(20, 50, 50);
+    width: 45%;
     height: 100vh;
     left: 0px;
     align-items: center;
@@ -36,11 +36,11 @@
     align-items: center;
     justify-items: center;
     justify-content: center;
-    mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 0%, transparent 75%);
 }
 
-.profile-photo {
-    margin-right: 50px;
+.profilePhoto {
+    margin-left: 25px;
     bottom: 75px;
     background-image: url('/public/images/profile-picture.png');
     width: 600px;
@@ -49,4 +49,8 @@
     background-color: transparent;
     filter: drop-shadow(0 0 15px rgba(0, 0, 0, 1));
     mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+}
+
+.description {
+
 }

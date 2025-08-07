@@ -1,17 +1,20 @@
-function About () {
-  return(
-    <div id="about" className="about">
-        <h1 className='title'>About Me</h1>
+import styles from '../css/About.module.css'
 
-        <div className='photo-container'>
-          <div className='circle'>
-            
-          </div>
-          <div className='profile-photo' />
-        </div>
-        
+function About() {
+  return (
+    <div id='about' className={styles.about}>
+      <h1 className={styles.title}>About Me</h1>
+
+      <div className={styles.photoContainer}>
+        <div className={styles.circle} />
+        <div className={styles.profilePhoto} />
+      </div>
+
+      <div className={styles.description}>
+
+      </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

@@ -1,3 +1,4 @@
+import '../css/Home.css'
 import linkedinLogo from '/images/logos/linkedin.png'
 import githubLogo from '/images/logos/github.png'
 

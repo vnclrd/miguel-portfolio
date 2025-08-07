@@ -1,3 +1,5 @@
+import '../css/Projects.css'
+
 function Projects() {
   return(
     <div id='projects' className='projects'>
