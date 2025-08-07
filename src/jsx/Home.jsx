@@ -4,10 +4,10 @@ import githubLogo from '/images/logos/github.png'
 
 function Home() {
   return (
-    <div id="home" className="home">
+    <div id="home" className="home">    
       <div>
         <h1 className="intro-name"><b>Hi, I'm Miguel.</b></h1>
-        <p className="profession">I'm a Developer</p>
+        <p className="profession">I'm a Developer, a Graphic Artist, and an Aspiring Software Engineer</p>
         <a href='https://www.linkedin.com/in/vnclrd/'>
           <img src={linkedinLogo} className='logo-container' />
         </a>
