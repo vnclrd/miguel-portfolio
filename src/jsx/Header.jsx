@@ -37,10 +37,7 @@ function Header() {
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })
   }
 
-  // elements of the header
   return (
-    // style={} applies inline styles directly to the element
-    // 0.7 (true), 1 (false)
     <div className="header"
         style={{
         justifyContent: 'center',
@@ -50,7 +47,7 @@ function Header() {
         opacity: scrolled ? '0.75' : '1',
         borderRadius: scrolled ? 25 : 0,
         marginTop: scrolled ? '25px' : '0px',
-        width: scrolled ? '50%' : '100%',
+        width: scrolled ? '60%' : '100%',
         filter: scrolled
             ? 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.50))'
             : 'drop-shadow(0 0 0 rgba(0, 0, 0, 0.50))',
