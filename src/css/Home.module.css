@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.intro-name {
+.introName {
     margin-top: 25px;
     color: rgb(29, 29, 31);
     font-size: 75px;
@@ -20,7 +20,7 @@
     color: rgb(29, 29, 31);
 }
 
-.logo-container {
+.logoContainer {
     background-size: cover;
     background-color: transparent;
     width: 50px;
