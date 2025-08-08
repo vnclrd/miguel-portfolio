@@ -7,3 +7,17 @@
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* IE/Edge (legacy) */
+html {
+  -ms-overflow-style: none;
+}

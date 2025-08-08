@@ -29,6 +29,7 @@ function About() {
             music, sneakers, keyboards, and more. Feel free to check out
             my projects below or get in touch if you'd like to collaborate!
           </p>
+          
       </div>
     </div>
   );
