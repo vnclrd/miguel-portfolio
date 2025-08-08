@@ -7,10 +7,12 @@
 }
 
 .title {
+    margin-left: 550px;
     margin-top: 125px;
     background-color: transparent;
     color: #fff;
     font-size: 40px;
+    text-align: right;
     z-index: 1000;
 }
 
@@ -55,22 +57,34 @@
 
 .descriptionContainer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     background-color: transparent;
     width: 45%;
     height: 100vh;
     right: 0px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
 }
 
-.description {
+p.description1 {
+    margin-top: 300px;
     margin-right: 300px;
-    margin-bottom: 200px;
-    min-width: 800px;
+    margin-bottom: 0px;
+    min-width: 700px;
     background: none;
     color: #fff;
     font-style: italic;
     letter-spacing: 1px;
+}
+
+p.description2 {
+    margin-right: 300px;
+    margin-bottom: 200px;
+    min-width: 700px;
+    background: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: large;
+    line-height: 30px;
 }
