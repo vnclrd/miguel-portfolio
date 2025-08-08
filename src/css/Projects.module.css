@@ -29,15 +29,15 @@
 }
 
 .imageContainerP1 {
-  background-image: url('/public/images/trainin-aas.jpg');
+  background-image: url('/images/trainin-aas.jpg');
 }
 
 .imageContainerP2 {
-  background-image: url('/public/images/instaprint.jpg');
+  background-image: url('/images/instaprint.jpg');
 }
 
 .imageContainerP3 {
-  background-image: url('/public/images/shouldu.jpg');
+  background-image: url('/images/shouldu.jpg');
 }
 
 h1 {
@@ -93,35 +93,35 @@ p.description {
 }
 
 .react {
-  background-image: url('/public/images/logos/react.png');
+  background-image: url('/images/logos/react.png');
 }
 
 .js {
-  background-image: url('/public/images/logos/js.png');
+  background-image: url('/images/logos/js.png');
 }
 
 .ts {
-  background-image: url('/public/images/logos/ts.png');
+  background-image: url('/images/logos/ts.png');
 }
 
 .html {
-  background-image: url('/public/images/logos/html.png');
+  background-image: url('/images/logos/html.png');
 }
 
 .css {
-  background-image: url('/public/images/logos/css.png');
+  background-image: url('/images/logos/css.png');
 }
 
 .sqlite {
-  background-image: url('/public/images/logos/sqlite.svg');
+  background-image: url('/images/logos/sqlite.svg');
 }
 
 .python {
-  background-image: url('/public/images/logos/python.png');
+  background-image: url('/images/logos/python.png');
 }
 
 .mysql {
-  background-image: url('/public/images/logos/mysql.png');
+  background-image: url('/images/logos/mysql.png');
 }
 
 .toolsApacheCordova {
@@ -136,5 +136,5 @@ p.description {
 }
 
 .apacheCordova {
-  background-image: url('/public/images/logos/apache-cordova.png');
+  background-image: url('/images/logos/apache-cordova.png');
 }
