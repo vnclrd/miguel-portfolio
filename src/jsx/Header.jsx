@@ -1,4 +1,4 @@
-import '../css/Header.css'
+import styles from '../css/Header.module.css'
 import { useEffect, useState } from 'react'
 
 function Header() {   
@@ -39,8 +39,8 @@ function Header() {
   }
 
   return (
-    <div className="header"
-        style={{
+    <div 
+      style={{
         justifyContent: 'center',
         alignItems: 'center',
         display: 'flex',
@@ -58,28 +58,29 @@ function Header() {
         transform: 'translateX(-50%)',
         transition: 'all 0.3s ease',
         zIndex: 1000,
-    }}>
-      <ul className="header-ul">
-        <li className="header-li">
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToHome() }} className="header-a">Home</a>
+      }}
+    >
+      <ul className={styles.headerUl}>
+        <li className={styles.headerLi}>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToHome() }} className={styles.headerA}>Home</a>
         </li>
-        <li className="header-li">
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }} className="header-a">About</a>
+        <li className={styles.headerLi}>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }} className={styles.headerA}>About</a>
         </li>
-        <li className="header-li">
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToProjects() }} className="header-a">Projects</a>
+        <li className={styles.headerLi}>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToProjects() }} className={styles.headerA}>Projects</a>
         </li>
-        <li className="header-li">
-          <a href="#" className="header-a">Experience</a>
+        <li className={styles.headerLi}>
+          <a href="#" className={styles.headerA}>Experience</a>
         </li>
-        <li className="header-li">
-          <a href="#" className="header-a">Skills</a>
+        <li className={styles.headerLi}>
+          <a href="#" className={styles.headerA}>Skills</a>
         </li>
-        <li className="header-li">
-          <a href="#" className="header-a">Education</a>
+        <li className={styles.headerLi}>
+          <a href="#" className={styles.headerA}>Education</a>
         </li>
-        <li className="header-li">
-          <a href="#" className="header-a">Certifications</a>
+        <li className={styles.headerLi}>
+          <a href="#" className={styles.headerA}>Certifications</a>
         </li>
       </ul>
     </div>
