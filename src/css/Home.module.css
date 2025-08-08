@@ -8,16 +8,20 @@
 
 .introName {
     margin-top: 25px;
-    color: rgb(29, 29, 31);
+    color: #1b1f23;
     font-size: 75px;
     text-align: center;
     letter-spacing: -3.5px;
 }
 
+.nameHighlight {
+    color: #00a5e6;
+}
+
 .profession {
     font-size: 25px;
     text-align: center;
-    color: rgb(29, 29, 31);
+    color: #1b1f23;
 }
 
 .logoContainer {
