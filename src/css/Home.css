@@ -1,4 +1,4 @@
-.home {
+.home-container {
     min-height: 90vh;
     display: flex;
     justify-content: center;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.introName {
+.home-intro-name {
     margin-top: 25px;
     color: #1b1f23;
     font-size: 75px;
@@ -14,17 +14,13 @@
     letter-spacing: -3.5px;
 }
 
-.nameHighlight {
-    color: #00a5e6;
-}
-
-.profession {
+.home-profession {
     font-size: 20px;
     text-align: center;
     color: #1b1f23;
 }
 
-.logoContainer {
+.home-logo-container {
     background-size: cover;
     background-color: transparent;
     width: 50px;
