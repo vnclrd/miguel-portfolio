@@ -1,24 +1,24 @@
-import styles from '../css/About.module.css'
+import '../css/About.css'
 
 function About() {
   return (
-    <div id='about' className={styles.about}>
-      <h1 className={styles.title}>Something About Me</h1>
+    <div id='about' className='about-container'>
+      <h1 className='about-title'>Something About Me</h1>
 
-      <div className={styles.photoContainer}>
-        <div className={styles.circle} />
-        <div className={styles.profilePhoto} />
+      <div className='about-photo-container'>
+        <div className='about-circle' />
+        <div className='about-profile-photo' />
       </div>
 
-      <div className={styles.descriptionContainer}>
-          <p className={styles.description1}>
+      <div className='about-description-container'>
+          <p className='about-description-1'>
             "I'm excited to learn and grow as I explore opportunities
             to apply and expand my skills in software development.
             Currently, I’m sharpening my abilities through hands-on
             projects and coding practice, while staying open to
             collaborating with like-minded professionals."
           </p>
-          <p className={styles.description2}>
+          <p className='about-description-2'>
             Hi, I’m Miguel — a passionate developer who creates clean,
             functional, and engaging digital experiences. I build
             responsive websites and impactful mobile apps, focusing

@@ -1,4 +1,4 @@
-.about {
+.about-container {
     height: 100vh;
     background-color: #1b1f23;
     display: flex;
@@ -6,7 +6,7 @@
     filter: drop-shadow(0 0 25px rgba(0, 0, 0, 1))
 }
 
-.title {
+.about-title {
     margin-left: 550px;
     margin-top: 125px;
     background-color: transparent;
@@ -16,7 +16,7 @@
     z-index: 1000;
 }
 
-.photoContainer {
+.about-photo-container {
     display: flex;
     position: absolute;
     background-color: #1b1f23;
@@ -28,7 +28,7 @@
     justify-content: center;
 }
 
-.circle {
+.about-circle {
     position: absolute;
     width: 400px;
     height: 400px;
@@ -43,7 +43,7 @@
     mask-image: linear-gradient(to bottom, black 0%, transparent 75%);
 }
 
-.profilePhoto {
+.about-profile-photo {
     margin-left: 25px;
     bottom: 75px;
     background-image: url('/images/profile-picture.png');
@@ -55,7 +55,7 @@
     mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
 }
 
-.descriptionContainer {
+.about-description-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,7 @@
     right: 0px;
 }
 
-p.description1 {
+p.about-description-1 {
     margin-top: 300px;
     margin-right: 300px;
     margin-bottom: 0px;
@@ -78,7 +78,7 @@ p.description1 {
     letter-spacing: 1px;
 }
 
-p.description2 {
+p.about-description-2 {
     margin-right: 300px;
     margin-bottom: 200px;
     min-width: 700px;

@@ -7,7 +7,7 @@ function Home() {
     <div id="home" className={styles.home}>    
       <div>
         <h1 className={styles.introName}><b>Hi, I'm Miguel.</b></h1>
-        <p className={styles.profession}>I'm a Developer, a Graphic Designer, and an Aspiring Software Engineer</p>
+        <p className={styles.profession}>I'm a <b>Computer Engineer</b>, a <b>Developer</b>, a <b>Graphic Designer</b>, <br></br>and an <b>Aspiring Software Engineer</b></p>
         <a href='https://www.linkedin.com/in/vnclrd/'>
           <img src={linkedinLogo} className={styles.logoContainer} />
         </a>
