@@ -38,6 +38,10 @@ function Header() {
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })
   }
 
+  function scrollToExperience() {
+    document.getElementById('experience').scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <div 
       style={{
@@ -71,7 +75,7 @@ function Header() {
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToProjects() }} className='header-a'>Projects</a>
         </li>
         <li className='header-li'>
-          <a href="#" className='header-a'>Experience</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToExperience() }} className='header-a'>Experience</a>
         </li>
         <li className='header-li'>
           <a href="#" className='header-a'>Skills</a>
