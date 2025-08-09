@@ -17,6 +17,19 @@ function Experience() {
             Reported directly to the CEO on team performance, milestones, and
             challenges and worked with cross-functional teams to deliver integrated web solutions.
           </p>
+
+          <p className='experience-skills-gained-title'>Skills Gained</p>
+          <div className='experience-skills-container-1'>
+            <p className='experience-oval'>WordPress</p>
+            <p className='experience-oval'>Figma</p>
+            <p className='experience-oval'>Leadership</p>
+          </div>
+          <div className='experience-skills-container-2'>
+            <p className='experience-oval'>Teamwork</p>
+            <p className='experience-oval'>Communication</p>
+            <p className='experience-oval'>Collaboration</p>
+          </div>
+
         </div>
 
         <div className='experience'>
@@ -31,6 +44,18 @@ function Experience() {
             trusted with confidential information and remained resilient and reliable,
             particularly in high-pressure and critical situations.
           </p>
+
+          <p className='experience-skills-gained-title'>Skills Gained</p>
+          <div className='experience-skills-container-1'>
+            <p className='experience-oval'>JavaScript</p>
+            <p className='experience-oval'>HTML</p>
+            <p className='experience-oval'>CSS</p>
+          </div>
+          <div className='experience-skills-container-2'>
+            <p className='experience-oval'>Figma</p>
+            <p className='experience-oval'>Teamwork</p>
+            <p className='experience-oval'>Collaboration</p>
+          </div>
         </div>
       </div>
 
