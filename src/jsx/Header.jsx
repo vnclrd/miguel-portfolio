@@ -49,12 +49,12 @@ function Header() {
         alignItems: 'center',
         display: 'flex',
         minHeight: '7vh',
-        opacity: scrolled ? '0.75' : '1',
+        opacity: scrolled ? '1' : '1',
         borderRadius: scrolled ? 25 : 0,
         marginTop: scrolled ? '25px' : '0px',
         width: scrolled ? '60%' : '100%',
         filter: scrolled
-            ? 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.50))'
+            ? 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.25))'
             : 'drop-shadow(0 0 0 rgba(0, 0, 0, 0.50))',
         position: 'fixed',
         top: 0,
