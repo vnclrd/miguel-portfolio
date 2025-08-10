@@ -1,4 +1,3 @@
-import '../css/Header.css'
 import { useEffect, useState } from 'react'
 
 function Header() {   
@@ -26,16 +25,12 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  function scrollToHome() {
-    document.getElementById('home').scrollIntoView({ behavior: 'smooth' })
-  }
-
   function scrollToAbout() {
     document.getElementById('about').scrollIntoView({ behavior: 'smooth' })
   }
 
-  function scrollToProjects() {
-    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })
+  function scrollToWork() {
+    document.getElementById('work').scrollIntoView({ behavior: 'smooth' })
   }
 
   function scrollToExperience() {
@@ -44,47 +39,29 @@ function Header() {
 
   return (
     <div 
-      style={{
-        justifyContent: 'center',
-        alignItems: 'center',
-        display: 'flex',
-        minHeight: '7vh',
-        opacity: scrolled ? '1' : '1',
-        borderRadius: scrolled ? 25 : 0,
-        marginTop: scrolled ? '25px' : '0px',
-        width: scrolled ? '60%' : '100%',
-        filter: scrolled
-            ? 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.25))'
-            : 'drop-shadow(0 0 0 rgba(0, 0, 0, 0.50))',
-        position: 'fixed',
-        top: 0,
-        left: '50%',
-        transform: 'translateX(-50%)',
-        transition: 'all 0.3s ease',
-        zIndex: 1000,
-      }}
-    >
-      <ul className='header-ul'>
-        <li className='header-li'>
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToHome() }} className='header-a'>Home</a>
+        className={`
+          flex justify-center items-center h-10 opacity-100 
+          fixed top-[35px] left-[75%]
+          z-[1000] border
+          transition-[border-color,box-shadow] duration-500 ease-in-out
+          ${scrolled 
+            ? 'w-[22.5%] drop-shadow-[0_0_15px_rgba(0,0,0,0.25)] border-[#e0e0e0]' 
+            : 'w-[22.5%] drop-shadow-[0_0_0_rgba(0,0,0,0.50)] border-transparent'
+          }
+        `}
+      >
+      <ul className="text-[0.75rem] bg-transparent">
+        <li className="inline-block bg-transparent">
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">About</a>
         </li>
-        <li className='header-li'>
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }} className='header-a'>About</a>
+        <li className="inline-block bg-transparent">
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToWork() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">Work</a>
         </li>
-        <li className='header-li'>
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToProjects() }} className='header-a'>Projects</a>
+        <li className="inline-block bg-transparent">
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToExperience() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">Experience</a>
         </li>
-        <li className='header-li'>
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToExperience() }} className='header-a'>Experience</a>
-        </li>
-        <li className='header-li'>
-          <a href="#" className='header-a'>Skills</a>
-        </li>
-        <li className='header-li'>
-          <a href="#" className='header-a'>Education</a>
-        </li>
-        <li className='header-li'>
-          <a href="#" className='header-a'>Certifications</a>
+        <li className="inline-block bg-transparent">
+          <a href="#" className="no-underline text-[#e0e0e0] m-5 bg-transparent">Skills</a>
         </li>
       </ul>
     </div>

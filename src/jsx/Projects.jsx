@@ -1,8 +1,8 @@
 import '../css/Projects.css'
 
-function Projects() {
+function Work() {
   return(
-    <div id='projects' className='projects-container'>
+    <div id='work' className='projects-container'>
       
       <h1 className='projects-title'>Projects</h1>
 
@@ -112,4 +112,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Work
