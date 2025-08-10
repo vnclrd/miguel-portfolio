@@ -2,7 +2,7 @@ function About() {
   return (
     <div id="about" className='flex h-[100vh] items-center justify-center bg-[#0d1b2a] gap-10'>
 
-      <div className='w-[400px] h-[400px] text-[#e0e0e0] text-[1.5rem] mt-10'>
+      <div className='w-[400px] h-[400px] text-[#e0e0e0] text-[1.5rem]'>
         <h1 className='mb-9 font-bold'>About Me</h1>
 
         <p className='text-[0.8rem] text-[#b0bec5] pb-5 leading-5'>
@@ -24,7 +24,7 @@ function About() {
 
       </div>
 
-      <div className='w-[250px] h-[250px] bg-gray-800 mt-10 mr-50 z-1000'>
+      <div className='w-[250px] h-[250px] bg-gray-800 mr-50 z-1000'>
         <img 
           src="/miguel-portfolio/images/profile-photo.jpg"
           alt="Miguel Ivan Calarde"
@@ -32,7 +32,7 @@ function About() {
         />
       </div>
 
-      <div className='absolute w-[250px] h-[250px] bg-gray-800 mt-20 ml-70'>
+      <div className='absolute w-[250px] h-[250px] bg-gray-800 mt-10 ml-70'>
         <img 
           src="/miguel-portfolio/images/profile-photo.jpg"
           alt="Miguel Ivan Calarde"

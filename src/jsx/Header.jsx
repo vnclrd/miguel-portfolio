@@ -46,7 +46,7 @@ function Header() {
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToExperience() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">Experience</a>
         </li>
         <li className="inline-block bg-transparent">
-          <a href="#" className="no-underline text-[#e0e0e0] m-5 bg-transparent">Skills</a>
+          <a href="#" className="no-underline text-[#e0e0e0] m-5 bg-transparent">Contact</a>
         </li>
       </ul>
     </div>
