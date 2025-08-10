@@ -41,8 +41,7 @@ function Header() {
     <div 
         className={`
           flex justify-center items-center h-10 opacity-100 
-          fixed top-[35px] left-[75%]
-          z-[1000] border
+          fixed top-[30px] left-[75%] z-[1000] border
           transition-[border-color,box-shadow] duration-500 ease-in-out
           ${scrolled 
             ? 'w-[22.5%] drop-shadow-[0_0_15px_rgba(0,0,0,0.25)] border-[#e0e0e0]' 
