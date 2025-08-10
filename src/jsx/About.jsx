@@ -7,7 +7,7 @@ function About() {
 
         <p className='text-[0.8rem] text-[#b0bec5] pb-5 leading-5'>
           Hi, I'm Miguel. I got into tech because I love to play video games as a kid.
-          I got to play "Minecraft" and enjoyed playing with others through servers.
+          I had the chance to play "Minecraft" and enjoyed playing multiplayer through servers.
           That's when I explored on how to create my own server.
         </p>
 
