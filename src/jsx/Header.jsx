@@ -1,27 +1,13 @@
 import { useEffect, useState } from 'react'
 
 function Header() {   
-
-  // scrolled = where page is scrolled (true/false)
-  // setScrolled = function to update state
   const [scrolled, setScrolled] = useState(false);
 
-  // useEffect() runs code when browser is loaded
-  // empty [] means it will only run once
   useEffect(() => {
-    
-    // function that checks how far the user has scrolled
-    // setScrolled(window.scrollY > 10) checks if scroll is more than 10px
-    // if yes, setScrolled(true), otherwise setScrolled(false)
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
     };
-
-    // tells browser to run handleScroll function when user scrolls
     window.addEventListener("scroll", handleScroll)
-    
-    // cleanup function
-    // removes scroll listener when components are removed.
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

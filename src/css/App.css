@@ -3,6 +3,17 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none; /* For WebKit-based browsers */
+  -moz-user-drag: none;    /* For Firefox */
+  -o-user-drag: none;      /* Older Opera */
+  user-select: none;       /* Prevent text selection (optional) */
 }
 
 ::-webkit-scrollbar {
