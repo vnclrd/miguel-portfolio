@@ -1,22 +1,24 @@
-import '../css/Home.css'
-import linkedinLogo from '/images/logos/linkedin.png'
-import githubLogo from '/images/logos/github.png'
-
 function Home() {
   return (
-    <div id="home" className='home-container'>    
-      <div>
-        <h1 className='home-intro-name'><b>Hi, I'm Miguel.</b></h1>
-        <p className='home-profession'>I'm a <b>Computer Engineer</b>, a <b>Developer</b>, a <b>Graphic Designer</b>, <br></br>and an <b>Aspiring Software Engineer</b></p>
-        <a href='https://www.linkedin.com/in/vnclrd/'>
-          <img src={linkedinLogo} className='home-logo-container' />
-        </a>
-        <a href='https://github.com/vnclrd'>
-          <img src={githubLogo} className='home-logo-container' />
-        </a>
+    <div id="home" className='flex h-[100vh] items-center justify-center bg-[#0d1b2a]'>   
+
+      <div className='w-[600px] flex flex-col items-left justify-center'>
+
+        <p className='text-[#00b4d8] pb-3'>Hi, my name is</p>
+
+        <h1 className='text-[#00b4d8] text-[3.5rem] font-bold font-poppins ml-[-3px] pb-2'>Miguel Ivan Calarde.</h1>
+
+        <p className='text-[#e0e0e0] leading-7'>
+          I'm a developer specializing in designing and building systems
+          <br />
+          that deliver convenience and value to the people who use them.
+        </p>
+
+        <button className='border w-30 h-10 mt-5 text-[#e0e0e0]'>Get Started!</button>
+
       </div>
+
     </div>
   )
 }
-
 export default Home

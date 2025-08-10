@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 ::-webkit-scrollbar {
