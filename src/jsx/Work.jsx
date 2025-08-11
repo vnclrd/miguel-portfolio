@@ -10,7 +10,16 @@ function Work() {
 
           <div className='w-[400px] h-[250px] mt-50 bg-[#b0bec5] z-1000'></div>
           <div className='absolute w-[375px] h-[250px] mt-60 ml-171 bg-none border-[2px] border-[#00b4d8]'></div>
-          <div className='absolute w-[400px] h-[100px] bg-[#121212] ml-70 mt-75 z-1000'></div>
+          <div className='absolute w-[400px] h-[175px] bg-[#121212] text-justify ml-65 mt-100 p-3.5 z-1000'>
+            <p className='flex text-[#e0e0e0] text-[0.75rem]'>
+              Developed a full-stack printing kiosk that calculates document pricing
+              based on page count, color, and paper size, enabling automated, affordable
+              printing for students and faculty. Integrated Python with Flask for back-end
+              development and utilized WebSocket-based payment tracking. Implemented hardware
+              interaction with printers, coin acceptors and change system. As well as cashless
+              payment with GCash with integration with PayMongo.
+            </p>
+          </div>
 
         </div>
         
