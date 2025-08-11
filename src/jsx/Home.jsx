@@ -5,7 +5,7 @@ function scrollToAbout() {
 function Home() {
   return (
     <div id="home" className='flex h-[100vh] items-center justify-center bg-[#0d1b2a]'>   
-      <div className='w-[600px] h-[300px] flex flex-col items-left justify-center mr-50'>
+      <div className='w-[600px] h-[300px] flex flex-col items-left justify-center mr-65'>
         <p className='text-[#00b4d8] pb-3'>Hi, I am</p>
         <h1 className='text-[#00ffff] text-[3.5rem] font-bold font-poppins ml-[-3px] pb-2'>Miguel Ivan Calarde.</h1>
         <p className='text-[#e0e0e0] leading-7'>
