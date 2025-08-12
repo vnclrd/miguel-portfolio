@@ -6,8 +6,8 @@ function About() {
   return (
     <div id="about" className='flex h-[100vh] items-center justify-center bg-[#0d1b2a] gap-10'>
       <div className='flex items-center justify-center bg-[#0d1b2a] gap-10 mr-25'>
-        <div className='w-[400px] h-[400px] text-[#e0e0e0] text-[1.5rem]'>
-          <h1 className='mb-9 font-bold'>About Me</h1>
+        <div className='w-[400px] h-[400px]'>
+          <h1 className='text-[#e0e0e0] text-[1.5rem] mb-9 font-bold'>About Me</h1>
 
           <p className='text-[0.8rem] text-[#b0bec5] pb-5 leading-5'>
             Hi, I'm Miguel. I got into tech because I love to play video games as a kid.

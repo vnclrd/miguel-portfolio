@@ -17,7 +17,7 @@ function Home() {
             href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }}
             className="text-[#00b4d8] bg-transparent text-[0.75rem] pl-4 pr-4 pt-2.5 pb-2.5 border"
           >
-            Get Started!
+            Know more about me
           </a>
         </li>
       </div>
