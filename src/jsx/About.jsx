@@ -16,9 +16,9 @@ function About() {
           </p>
 
           <p className='text-[0.9rem] text-[#b0bec5] pb-10'>
-            Today, I am now a <span className='text-[#00b4d8] font-semibold'>Computer Engineering</span> graduate who specializes in system
+            Today, I am now a <span className='text-[#00b4d8] font-semibold'>Computer Engineering graduate</span> who specializes in system
             development. I've created projects that serve as solutions to real-world
-            problems and I am excited to learn more and grow as I explore opportunities
+            problems and <span className='text-[#00b4d8]'>I am excited to learn more and grow</span> as I explore opportunities
             and expand my skills in software development.
           </p>
 
