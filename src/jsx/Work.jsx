@@ -26,10 +26,9 @@ function Work() {
 
           {/* Project Description */}
           <div className='absolute w-[400px] h-[120px] bg-[#000e1e] text-justify ml-145 mb-60 p-3.5 z-1000'>
-            <p className='flex text-[#e0e0e0] text-[0.750rem]'>
-              TrainIn is an automated attendance system designed to record and track the attendance
-              of individuals at organized events. It uses NFC cards along with an external reader
-              device to provide a seamless and efficient check-in and check-out process.
+            <p className=' text-[#e0e0e0] text-[0.750rem]'>
+              TrainIn is an automated attendance system designed to <span className='text-[#00b4d8] font-semibold'>record and track attendance</span> before and after a session.
+              It uses NFC chips along with an external reader device to provide a seamless and efficient check-in and check-out process.
             </p>
           </div>
 
@@ -67,11 +66,10 @@ function Work() {
 
           {/* Project Description */}
           <div className='absolute w-[400px] h-[120px] bg-[#000e1e] text-justify ml-65 mt-85 p-3.5 z-1000'>
-            <p className='flex text-[#e0e0e0] text-[0.75rem]'>
+            <p className='text-[#e0e0e0] text-[0.75rem]'>
               Developed a full-stack printing kiosk that calculates document pricing
-              based on page count, color, and paper size. Utilized Python + Flask for
-              back-end and utilized WebSocket-based payment tracking as well as cashless
-              payment with GCash with integration with PayMongo.
+              based on page count, color, and paper size. Utilized <span className='text-[#00b4d8] font-semibold'>Python + Flask</span> and <span className='text-[#00b4d8] font-semibold'>WebSocket-based</span> payment
+              tracking as well as cashless payments with <span className='text-[#00b4d8] font-semibold'>GCash</span> with integration with <span className='text-[#00b4d8] font-semibold'>PayMongo</span>.
             </p>
           </div>
 
