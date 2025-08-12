@@ -1,3 +1,7 @@
+function scrollToWork() {
+  document.getElementById('work').scrollIntoView({ behavior: 'smooth' })
+}
+
 function About() {
   return (
     <div id="about" className='flex h-[100vh] items-center justify-center bg-[#0d1b2a] gap-10'>
@@ -12,16 +16,27 @@ function About() {
           </p>
 
           <p className='text-[0.9rem] text-[#b0bec5] pb-10'>
-            Today, I am now a <span className='text-[#cf8115]'>Computer Engineering</span> graduate who specializes in system
+            Today, I am now a <span className='text-[#00b4d8] font-semibold'>Computer Engineering</span> graduate who specializes in system
             development. I've created projects that serve as solutions to real-world
             problems and I am excited to learn more and grow as I explore opportunities
             and expand my skills in software development.
           </p>
 
-          <p className='text-[0.8rem] text-[#b0bec5] italic'>Polytechnic University of the Philippines</p>
-          <p className='text-[0.8rem] text-[#b0bec5] italic'>BS Computer Engineering</p>
-          <p className='text-[0.8rem] text-[#b0bec5] italic'>Batch 2025</p>
+          <div className='absolute left-177 mt-5 text-right'>
+            <p className='text-[0.8rem] text-[#b0bec5] italic'>Polytechnic University of the Philippines</p>
+            <p className='text-[0.8rem] text-[#b0bec5] italic'>BS Computer Engineering</p>
+            <p className='text-[0.8rem] text-[#b0bec5] italic'>Batch 2025</p>
+          </div>
 
+          <li className="inline-block bg-transparent mt-5">
+            <a
+              href="#" onClick={(e) => { e.preventDefault(); scrollToWork() }}
+              className="text-[#00b4d8] bg-transparent text-[0.75rem] pl-4 pr-4 pt-2.5 pb-2.5 border"
+            >
+              Check out my work!
+            </a>
+          </li>
+        
         </div>
 
         <div className='w-[250px] h-[250px] bg-gray-800 mr-50 z-1000'>
