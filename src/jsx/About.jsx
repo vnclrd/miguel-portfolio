@@ -32,12 +32,8 @@ function About() {
           />
         </div>
 
-        <div className='absolute w-[250px] h-[250px] bg-gray-800 mt-10 ml-70'>
-          <img 
-            src="/miguel-portfolio/images/profile-photo.jpg"
-            alt="Miguel Ivan Calarde"
-            className='w-full h-full object-cover hover:grayscale-0 transition-all duration-300'
-          />
+        <div className='absolute w-[250px] h-[250px] border-[2px] border-[#00b4d8] mt-10 ml-70'>
+
         </div>
 
       </div>
