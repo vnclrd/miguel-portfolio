@@ -28,9 +28,9 @@ function Work() {
             </p>
           </div>
 
-          <div className='absolute'>
-
-          </div>
+          <a href="https://github.com/vnclrd/trainin-aas" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] mb-102 ml-235'>
+            <img src="/miguel-portfolio/images/logos/github.png" alt="GitHub" />
+          </a>
 
           <div className='absolute text-gray-500 text-[0.60rem] ml-160 mb-22 gap-10'>
             <div className='flex gap-4'>
@@ -52,6 +52,11 @@ function Work() {
               className='w-full h-full object-cover'
             />
           </div>
+
+          <a href="https://github.com/katrina110/instaprint-flask-" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] mt-42 ml-68.5'>
+            <img src="/miguel-portfolio/images/logos/github.png" alt="GitHub" />
+          </a>
+
           <div className='absolute w-[375px] h-[250px] mt-70 ml-171 bg-none border-[2px] border-[#90494d]'></div>
           <div className='absolute w-[400px] h-[120px] bg-[#000e1e] text-justify ml-65 mt-85 p-3.5 z-1000'>
             <p className='flex text-[#e0e0e0] text-[0.75rem]'>
@@ -62,7 +67,7 @@ function Work() {
             </p>
           </div>
 
-          <div className='absolute text-gray-500 text-[0.60rem] ml-65 mt-123 gap-10'>
+          <div className='absolute text-gray-500 text-[0.60rem] ml-68.5 mt-123 gap-10'>
             <div className='flex gap-4'>
               <p>Python</p>
               <p>JavaScript</p>
