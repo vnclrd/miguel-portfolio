@@ -4,18 +4,34 @@ function scrollToAbout() {
 
 function Home() {
   return (
-    <div id="home" className='flex h-[100vh] items-center justify-center bg-[#0d1b2a]'>   
-      <div className='w-[600px] h-[300px] flex flex-col items-left justify-center mr-65'>
-        <p className='text-[#00b4d8] pb-3'>Hi, I am</p>
-        <h1 className='text-[#00ffff] text-[3.5rem] font-bold font-poppins ml-[-3px] pb-2'>Miguel Ivan Calarde.</h1>
-        <p className='text-[#e0e0e0] leading-7'>
-          I'm a developer specializing in <span className='text-[#00b4d8]'>designing</span> and <span className='text-[#00b4d8]'>building</span> systems that deliver
+    <div
+      id="home"
+      className="flex min-h-screen items-center justify-center bg-[#0d1b2a] px-4"
+    >
+      <div className="w-full max-w-2xl flex flex-col items-start justify-center mr-65">
+        <p className="text-[#00b4d8] pb-5 text-sm sm:text-base">
+          Hi, I am
+        </p>
+
+        <h1 className="text-[#00ffff] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-poppins pb-5">
+          Miguel Ivan Calarde.
+        </h1>
+
+        <p className="text-[#e0e0e0] leading-7 text-sm sm:text-base">
+          I'm a developer specializing in{" "}
+          <span className="text-[#00b4d8]">designing</span> and{" "}
+          <span className="text-[#00b4d8]">building</span> systems that deliver
           convenience and value to the people who use them.
         </p>
-        <li className="inline-block bg-transparent mt-10">
+
+        <li className="inline-block mt-8 list-none">
           <a
-            href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }}
-            className="text-[#00b4d8] bg-transparent text-[0.75rem] pl-4 pr-4 pt-2.5 pb-2.5 border"
+            href="#"
+            onClick={(e) => {
+              e.preventDefault()
+              scrollToAbout()
+            }}
+            className="text-[#00b4d8] text-xs sm:text-sm border border-[#00b4d8] px-4 py-2 hover:bg-[#00b4d8] hover:text-[#0d1b2a] transition-colors"
           >
             Know more about me
           </a>
