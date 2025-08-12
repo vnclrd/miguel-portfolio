@@ -15,7 +15,7 @@ function Work() {
               className='w-full h-full object-cover'
             />
           </div>
-          <div className='absolute w-[375px] h-[250px] mb-40 ml-45 bg-none border-[2px] border-[#00b4d8]'></div>
+          <div className='absolute w-[375px] h-[250px] mb-40 ml-45 bg-none border-[2px] border-[#fff]'></div>
 
           <h1 className='absolute mb-107 ml-160 text-[#e0e0e0] text-[1.25rem] font-semibold'>TrainIn</h1>
           <h1 className='absolute mb-96 ml-160 text-gray-400 text-[0.75rem]'>Automated Attendance System</h1>
@@ -26,6 +26,10 @@ function Work() {
               of individuals at organized events. It uses NFC cards along with an external reader
               device to provide a seamless and efficient check-in and check-out process.
             </p>
+          </div>
+
+          <div className='absolute'>
+
           </div>
 
           <div className='absolute text-gray-500 text-[0.60rem] ml-160 mb-22 gap-10'>
@@ -48,7 +52,7 @@ function Work() {
               className='w-full h-full object-cover'
             />
           </div>
-          <div className='absolute w-[375px] h-[250px] mt-70 ml-171 bg-none border-[2px] border-[#00b4d8]'></div>
+          <div className='absolute w-[375px] h-[250px] mt-70 ml-171 bg-none border-[2px] border-[#90494d]'></div>
           <div className='absolute w-[400px] h-[120px] bg-[#000e1e] text-justify ml-65 mt-85 p-3.5 z-1000'>
             <p className='flex text-[#e0e0e0] text-[0.75rem]'>
               Developed a full-stack printing kiosk that calculates document pricing
