@@ -16,7 +16,7 @@ function Home() {
           className="
             w-full max-w-2xl flex flex-col  
             items-center text-center
-            lg:items-start lg:text-left lg:ml-65
+            lg:items-start lg:text-left lg:ml-50
           "
         >
           <p className="text-[#00b4d8] ml-0.5 pb-5 text-sm sm:text-base">
@@ -49,8 +49,8 @@ function Home() {
       </div>
       <div 
         className="
-          flex items-center justify-center bg-none px-4
-          w-full lg:w-[70%] min-h-screen
+          flex items-center justify-center bg-[#0d1b2a] px-4
+          w-full lg:w-[30%] lg:min-h-screen
         "
       >
       </div>
