@@ -24,18 +24,28 @@ function Header() {
   }
 
   return (
-    <div 
-        className={`
-          flex justify-center items-center h-10 opacity-100 
-          fixed top-[30px] left-[75%] z-[1000] border
-          transition-[border-color,box-shadow] duration-500 ease-in-out
-          ${scrolled 
-            ? 'w-[22.5%] drop-shadow-[0_0_15px_rgba(0,0,0,0.25)] border-[#e0e0e0]' 
-            : 'w-[22.5%] drop-shadow-[0_0_0_rgba(0,0,0,0.50)] border-transparent'
-          }
-        `}
-      >
-      <ul className="text-[0.75rem] bg-transparent">
+    <div
+      className={`
+        flex flex-row flex-nowrap items-center space-x-4
+        h-10 opacity-100 fixed top-[30px] z-[1000] border
+        transition-[border-color,box-shadow] duration-500 ease-in-out
+        
+        // Default position for extra-small, small, and medium screens
+        left-1/2 -translate-x-1/2 transform
+
+        md:left-1/2 md:-translate-x-1/3 md:transform
+
+        lg:right-[-6.5%]
+        lg:left-auto
+        lg:transform-none
+        
+        ${scrolled 
+          ? 'drop-shadow-[0_0_15px_rgba(0,0,0,0.25)] border-[#e0e0e0]' 
+          : 'drop-shadow-[0_0_0_rgba(0,0,0,0.50)] border-transparent'
+        }
+      `}
+    >
+      <ul className="flex flex-row flex-nowrap items-center space-x-2 bg-transparent text-[0.75rem]">
         <li className="inline-block bg-transparent">
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">About</a>
         </li>
