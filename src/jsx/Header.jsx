@@ -35,7 +35,7 @@ function Header() {
 
         md:left-1/2 md:-translate-x-1/3 md:transform
 
-        lg:right-[-6.5%]
+        lg:right-[-5.50%]
         lg:left-auto
         lg:transform-none
         
