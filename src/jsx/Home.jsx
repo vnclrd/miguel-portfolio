@@ -12,12 +12,11 @@ function Home() {
           w-full lg:w-[70%] min-h-screen
           "
         >
-
         <div
           className="
             w-full max-w-2xl flex flex-col  
             items-center text-center
-            lg:items-start lg:text-left lg:ml-60
+            lg:items-start lg:text-left lg:ml-65
           "
         >
           <p className="text-[#00b4d8] ml-0.5 pb-5 text-sm sm:text-base">
@@ -34,7 +33,6 @@ function Home() {
             <span className="text-[#00b4d8]">building</span> systems that deliver
             convenience and value to the people who use them.
           </p>
-
           <li className="inline-block mt-8 ml-0.5 list-none">
             <a
               href="#"
@@ -48,9 +46,7 @@ function Home() {
             </a>
           </li>
         </div>
-
       </div>
-
       <div 
         className="
           flex items-center justify-center bg-none px-4
@@ -58,7 +54,6 @@ function Home() {
         "
       >
       </div>
-      
     </div>
   )
 }
