@@ -27,21 +27,27 @@ function Header() {
     <div
       className={`
         flex flex-row flex-nowrap items-center space-x-4
-        h-10 opacity-100 fixed top-[30px] z-[1000] border
-        transition-[border-color,box-shadow] duration-500 ease-in-out
+        h-10 fixed top-[20px] z-[1000] shadow-lg
+        justify-center
+
+        md:w-[100%]
         
-        // Default position for extra-small, small, and medium screens
+        // For screen sizes other than lg and md
         left-1/2 -translate-x-1/2 transform
 
-        md:left-1/2 md:-translate-x-1/3 md:transform
+        md:left-1/2
+        md:-translate-x-1/2
+        md:transform
 
-        lg:right-[-5.50%]
-        lg:left-auto
+        lg:w-[25%]
+        lg:left-[85%]
         lg:transform-none
+        lg:border transition-[border-color,box-shadow] duration-500 ease-in-out
+        lg:shadow-none
         
         ${scrolled 
-          ? 'drop-shadow-[0_0_15px_rgba(0,0,0,0.25)] border-[#e0e0e0]' 
-          : 'drop-shadow-[0_0_0_rgba(0,0,0,0.50)] border-transparent'
+          ? 'lg:border-[#e0e0e0] ' 
+          : 'border-transparent'
         }
       `}
     >
