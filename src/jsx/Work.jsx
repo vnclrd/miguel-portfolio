@@ -46,7 +46,7 @@ function Work() {
 
           {/* Technologies */}
           <div className='text-center'>
-            <div className='flex flex-wrap justify-center gap-2 text-gray-500 text-[0.60rem]'>
+            <div className='flex flex-wrap justify-center gap-2 mt-5 text-gray-500 text-[0.60rem]'>
               <span>React Native</span>
               <span>•</span>
               <span>JavaScript</span>
@@ -97,7 +97,7 @@ function Work() {
 
           {/* Technologies */}
           <div className='text-center'>
-            <div className='flex flex-wrap justify-center gap-2 text-gray-500 text-[0.60rem]'>
+            <div className='flex flex-wrap justify-center gap-2 mt-5 text-gray-500 text-[0.60rem]'>
               <span>Python</span>
               <span>•</span>
               <span>JavaScript</span>
@@ -156,7 +156,7 @@ function Work() {
           </div>
 
           {/* Technologies Used */}
-          <div className='absolute text-gray-500 text-[0.60rem] left-[38rem] top-[48%]'>
+          <div className='absolute text-gray-500 text-[0.60rem] left-[38rem] mb-1 z-1000'>
             <div className='flex gap-4'>
               <p>React Native</p>
               <p>JavaScript</p>
@@ -197,7 +197,7 @@ function Work() {
           </div>
 
           {/* Technologies Used */}
-          <div className='absolute text-gray-500 text-[0.60rem] left-[16rem] top-[87.5%]'>
+          <div className='absolute text-gray-500 text-[0.60rem] left-[16rem] mt-138 z-1000'>
             <div className='flex gap-4'>
               <p>Python</p>
               <p>JavaScript</p>

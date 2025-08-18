@@ -23,6 +23,10 @@ function Header() {
     document.getElementById('experience').scrollIntoView({ behavior: 'smooth' })
   }
 
+  function scrollToContact() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <div
       className={`
@@ -58,7 +62,7 @@ function Header() {
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToExperience() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">Experience</a>
         </li>
         <li className="inline-block">
-          <a href="#" className="no-underline text-[#e0e0e0] m-5 bg-transparent">Contact</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); scrollToContact() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">Contact</a>
         </li>
       </ul>
     </div>
