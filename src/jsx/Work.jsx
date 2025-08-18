@@ -6,7 +6,7 @@ function Work() {
       <div className="block lg:hidden px-4 py-8">
         
         {/* Section Title */}
-        <h1 className='text-[#e0e0e0] text-[1.5rem] font-bold mb-8 text-center'>
+        <h1 className='text-[#e0e0e0] text-[1.5rem] font-bold mt-15 mb-8 text-center'>
           What I've worked on
         </h1>
 
