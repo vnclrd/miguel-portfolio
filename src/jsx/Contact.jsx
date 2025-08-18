@@ -14,35 +14,27 @@ function Contact() {
           className="
             w-full max-w-2xl flex flex-col  
             items-center text-center
-            lg:items-start lg:text-left lg:ml-50
+            lg:items-start lg:text-left lg:ml-40
           "
         >
-          <p className="text-[#00b4d8] ml-0.5 pb-5 text-sm sm:text-base">
-            Hi, I am
-          </p>
 
           <h1 className="text-[#00ffff] whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-poppins pb-5">
-            Miguel Ivan Calarde.
+            I am open to work.
           </h1>
 
-          <p className="text-[#e0e0e0] ml-0.5 leading-7 text-sm sm:text-base">
-            I'm a developer specializing in{" "}
-            <span className="text-[#00b4d8]">designing</span> and{" "}
-            <span className="text-[#00b4d8]">building</span> systems that deliver
-            convenience and value to the people who use them.
+          <p className="text-[#e0e0e0] ml-0.5 leading-6 mb-5 lg:text-[1rem] lg:font-thin sm:text-[base]">
+            I'm excited to learn and grow as I explore opportunities to apply and
+            expand my skills in software development.
           </p>
-          <li className="inline-block mt-8 ml-0.5 list-none">
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault()
-                scrollToAbout()
-              }}
-              className="text-[#00b4d8] text-xs sm:text-sm border border-[#00b4d8] px-4 py-2 hover:bg-[#00b4d8] hover:text-[#0d1b2a] transition-colors"
-            >
-              Get started!
-            </a>
-          </li>
+
+          <p className="text-[#e0e0e0] ml-0.5 leading-6 lg:text-[1rem] lg:font-thin sm:text-base">
+            In the meantime, if you have any{' '}
+            <span className="text-[#00b4d8] font-semibold">ideas</span> or{' '}
+            <span className="text-[#00b4d8] font-semibold">want to collaborate</span>{' '}
+            on a project with me, you may contact me through these links
+            and I will get back to you as soon as possible!
+          </p>
+
         </div>
       </div>
 

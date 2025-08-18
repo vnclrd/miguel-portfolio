@@ -83,10 +83,10 @@ function Experience() {
             </div>
 
             {/* Experience 3 */}
-            <div className='w-[400px] h-[250px] bg-[#09131f] z-20'></div>
+            <div className='w-[400px] h-[250px] bg-[#000e1e] z-20 opacity-50'></div>
 
             {/* Experience 4 */}
-            <div className='w-[400px] h-[250px] bg-[#09131f] z-20'></div>
+            <div className='w-[400px] h-[250px] bg-[#000e1e] z-20 opacity-25'></div>
 
           </div>
 
