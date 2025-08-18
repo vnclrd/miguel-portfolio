@@ -38,7 +38,7 @@ function Work() {
 
           {/* Project Description */}
           <div className='bg-[#000e1e] p-4 mb-4 rounded'>
-            <p className='text-[#e0e0e0] text-[0.750rem] text-center'>
+            <p className='text-[#e0e0e0] text-[0.75rem] text-center'>
               TrainIn is an automated attendance system designed to <span className='text-[#00b4d8] font-semibold'>record and track attendance</span> before and after a session.
               It uses NFC chips along with an external reader device to provide a seamless and efficient check-in and check-out process.
             </p>
