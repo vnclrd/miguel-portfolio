@@ -6,22 +6,42 @@ function Experience() {
       <div className="block lg:hidden px-4 py-8">
         
         {/* Section Title */}
-        <h1 className='text-[#e0e0e0] text-[1.5rem] font-bold mt-15 mb-8 text-center'>
+        <h1 className='text-[#e0e0e0] text-[1.5rem] font-bold mt-12 mb-8 text-center'>
           Where I've Worked
         </h1>
 
         {/* Experience 1 */}
-        <div className="mb-12">
+        <div className="mb-6">
           {/* Project Image */}
-          <div className='relative mb-4 w-full max-w-sm mx-auto h-[200px] bg-[#b0bec5]'></div>
+          <div className='relative mb-4 w-full max-w-sm mx-auto h-[250px] bg-[#000e1e]'>
+            <h1 className='text-[#e0e0e0] text-[1rem] font-semibold text-left ml-5 mt-5 pt-5'>Full Stack WordPress Developer Intern</h1>
+              <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>ROC.PH Digital Marketing Services</p>
+              <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2024 - October 2024</p>
+              <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5 pb-2.5'>
+                Developed and optimized ROC.PH Digital Marketing Services' website on WordPress,
+                translating CEO design recommendations into a high-quality, functional platform.
+                Collaborated with other departments to integrate web solutions and
+                ensure cohesive project execution.
+              </p>
+          </div>
         </div>
 
-        {/* Experience 2 */}
+        {/* Experience 1 */}
         <div className="mb-12">
           {/* Project Image */}
-          <div className='relative mb-4 w-full max-w-sm mx-auto h-[200px] bg-[#b0bec5]'></div>
+          <div className='relative mb-4 w-full max-w-sm mx-auto h-[250px] bg-[#000e1e]'>
+            <h1 className='text-[#e0e0e0] text-[1rem] font-semibold text-left ml-5 mt-5 pt-3'>Front-End Developer Intern</h1>
+              <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>LexMeet, Inc.</p>
+              <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2023 - October 2023</p>
+              <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5 pb-2.5'>
+                Developed new features and determined the structure and design of web pages.
+                Demonstrated strong problem-solving skills, decision-making, and logical thinking
+                for simple problems. Exhibited initiative and perseverance and maintained a responsive
+                work attitude, immediately completing assigned tasks.
+              </p>
+          </div>
         </div>
-        
+
       </div>
 
       {/* Desktop Layout */}
