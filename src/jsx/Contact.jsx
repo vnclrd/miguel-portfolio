@@ -1,3 +1,6 @@
+import { FaLinkedin, FaFacebook, FaFacebookMessenger, FaInstagram } from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
+
 function Contact() {
   return (
     <div id="contact" className='flex flex-col lg:flex-row lg:min-h-screen bg-[#0d1b2a]'>
@@ -35,6 +38,30 @@ function Contact() {
             and I will get back to you as soon as possible!
           </p>
 
+          <div
+            className="
+              flex w-[250px] h-[50px] mt-8 gap-6
+              justify-center       /* default (smaller screens) */
+              lg:justify-start     /* override for large screens */
+              items-center
+            "
+          >
+            <a
+              href="https://www.linkedin.com/in/vnclrd/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="text-white w-10 h-10 opacity-50" />
+            </a>
+
+            <a
+              href="mailto:miguel.calarde@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiGmail className="text-white w-10 h-10 opacity-50" />
+            </a>
+          </div>
         </div>
       </div>
 
