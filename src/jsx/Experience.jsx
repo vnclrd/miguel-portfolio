@@ -14,7 +14,7 @@ function Experience() {
         <div className="mb-6">
           {/* Project Image */}
           <div className='relative mb-4 w-full max-w-sm mx-auto h-[250px] bg-[#000e1e]'>
-            <h1 className='text-[#e0e0e0] text-[1rem] font-semibold text-left ml-5 mt-5 pt-5'>Full Stack WordPress Developer Intern</h1>
+            <h1 className='text-[#00b4d8] text-[1rem] font-semibold text-left ml-5 mt-5 pt-5'>Full Stack WordPress Developer Intern</h1>
               <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>ROC.PH Digital Marketing Services</p>
               <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2024 - October 2024</p>
               <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5 pb-2.5'>
@@ -30,7 +30,7 @@ function Experience() {
         <div className="mb-12">
           {/* Project Image */}
           <div className='relative mb-4 w-full max-w-sm mx-auto h-[250px] bg-[#000e1e]'>
-            <h1 className='text-[#e0e0e0] text-[1rem] font-semibold text-left ml-5 mt-5 pt-3'>Front-End Developer Intern</h1>
+            <h1 className='text-[#00b4d8] text-[1rem] font-semibold text-left ml-5 mt-5 pt-3'>Front-End Developer Intern</h1>
               <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>LexMeet, Inc.</p>
               <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2023 - October 2023</p>
               <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5 pb-2.5'>
@@ -58,7 +58,7 @@ function Experience() {
 
             {/* Experience 1 */}
             <div className='w-[400px] h-[250px] bg-[#000e1e] z-20'>
-              <h1 className='text-[#e0e0e0] text-[1rem] font-semibold text-left ml-5 mt-5'>Full Stack WordPress Developer Intern</h1>
+              <h1 className='text-[#00b4d8] text-[1rem] font-semibold text-left ml-5 mt-5'>Full Stack WordPress Developer Intern</h1>
               <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>ROC.PH Digital Marketing Services</p>
               <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2024 - October 2024</p>
               <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5'>
@@ -71,7 +71,7 @@ function Experience() {
 
             {/* Experience 2 */}
             <div className='w-[400px] h-[250px] bg-[#000e1e] z-20'>
-              <h1 className='text-[#e0e0e0] text-[1rem] font-semibold text-left ml-5 mt-5'>Front-End Developer Intern</h1>
+              <h1 className='text-[#00b4d8] text-[1rem] font-semibold text-left ml-5 mt-5'>Front-End Developer Intern</h1>
               <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>LexMeet, Inc.</p>
               <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2023 - October 2023</p>
               <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5'>
