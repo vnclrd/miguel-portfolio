@@ -1,3 +1,5 @@
+import { FaGithub } from 'react-icons/fa'
+
 function Work() {
   return(
     <div id="work" className='bg-[#0d1b2a] min-h-screen'>
@@ -29,8 +31,8 @@ function Work() {
           <div className='text-center mb-4'>
             <div className='flex items-center justify-center gap-2 mb-2'>
               <h2 className='text-[#e0e0e0] text-[1.25rem] font-semibold'>TrainIn</h2>
-              <a href="https://github.com/vnclrd/trainin-aas" target="_blank" rel="noopener noreferrer" className='w-[20px] h-[20px]'>
-                <img src="/miguel-portfolio/images/logos/github.png" alt="GitHub" />
+              <a href="https://github.com/vnclrd/trainin-aas" target="_blank" rel="noopener noreferrer">
+                <FaGithub className='text-white w-6 h-6 opacity-50' />
               </a>
             </div>
             <p className='text-gray-400 text-[0.75rem] mb-4'>Automated Attendance System</p>
@@ -79,8 +81,8 @@ function Work() {
           <div className='text-center mb-4'>
             <div className='flex items-center justify-center gap-2 mb-2'>
               <h2 className='text-[#e0e0e0] text-[1.25rem] font-semibold'>InstaPrint</h2>
-              <a href="https://github.com/katrina110/instaprint-flask-" target="_blank" rel="noopener noreferrer" className='w-[20px] h-[20px]'>
-                <img src="/miguel-portfolio/images/logos/github.png" alt="GitHub" />
+              <a href="https://github.com/katrina110/instaprint-flask-" target="_blank" rel="noopener noreferrer">
+                <FaGithub className='text-white w-6 h-6 opacity-50' />
               </a>
             </div>
             <p className='text-gray-400 text-[0.75rem] mb-4'>Self-Service Printing Kiosk</p>
@@ -143,8 +145,8 @@ function Work() {
           <p className='absolute top-[26.5%] left-[38rem] text-gray-400 text-[0.75rem]'>Automated Attendance System</p>
 
           {/* GitHub Link */}
-          <a href="https://github.com/vnclrd/trainin-aas" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[24%] left-[57rem] z-40'>
-            <img src="/miguel-portfolio/images/logos/github.png" alt="GitHub" />
+          <a href="https://github.com/vnclrd/trainin-aas" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[24.5%] left-[57rem] z-40'>
+            <FaGithub className='text-white w-6 h-6 opacity-50' />
           </a>
 
           {/* Project Description */}
@@ -183,8 +185,8 @@ function Work() {
           <p className='absolute top-[66%] left-[26.5rem] text-gray-400 text-[0.75rem]'>Self-Service Printing Kiosk</p>
 
           {/* GitHub Link */}
-          <a href="https://github.com/katrina110/instaprint-flask-" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[63.5%] left-61.5 z-40'>
-            <img src="/miguel-portfolio/images/logos/github.png" alt="GitHub" />
+          <a href="https://github.com/katrina110/instaprint-flask-" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[64%] left-61.5 z-40'>
+            <FaGithub className='text-white w-6 h-6 opacity-50' />
           </a>
 
           {/* Project Description */}
