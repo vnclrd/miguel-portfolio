@@ -19,7 +19,7 @@ function Contact() {
         >
 
           <h1 className="text-[#00ffff] whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-poppins pb-5">
-            I am open to work.
+            I Am Open To Work.
           </h1>
 
           <p className="text-[#e0e0e0] ml-0.5 leading-6 mb-5 lg:text-[1rem] lg:font-thin sm:text-[base]">

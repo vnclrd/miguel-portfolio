@@ -1,4 +1,4 @@
-import './css/App.css'
+import './App.css'
 import Header from './jsx/Header.jsx'
 import Home from './jsx/Home.jsx'
 import About from './jsx/About.jsx'
