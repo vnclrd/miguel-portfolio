@@ -146,7 +146,12 @@ function Work() {
 
           {/* GitHub Link */}
           <a href="https://github.com/vnclrd/trainin-aas" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[24.5%] left-[57rem] z-40'>
-            <FaGithub className='text-white w-6 h-6 opacity-50' />
+            <FaGithub
+              className='
+                text-white w-6 h-6 opacity-50
+                hover:opacity-100 transition-opacity duration-300
+                '
+            />
           </a>
 
           {/* Project Description */}
@@ -186,7 +191,12 @@ function Work() {
 
           {/* GitHub Link */}
           <a href="https://github.com/katrina110/instaprint-flask-" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[64%] left-61.5 z-40'>
-            <FaGithub className='text-white w-6 h-6 opacity-50' />
+            <FaGithub
+              className='
+                text-white w-6 h-6 opacity-50
+                hover:opacity-100 transition-opacity duration-300
+                '
+              />
           </a>
 
           {/* Project Description */}

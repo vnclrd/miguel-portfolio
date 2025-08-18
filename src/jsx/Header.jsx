@@ -7,8 +7,8 @@ function Header() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
     };
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   function scrollToAbout() {
@@ -51,19 +51,56 @@ function Header() {
         }
       `}
     >
-      <ul className="flex flex-row flex-nowrap items-center space-x-2 text-[0.75rem]">
-        <li className="inline-block">
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToAbout() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">About</a>
+      <ul className='flex flex-row flex-nowrap items-center space-x-2 text-[0.75rem]'>
+
+        {/* About Link */}
+        <li className='inline-block'>
+          <a href='about' onClick={(e) => { e.preventDefault(); scrollToAbout() }}
+            className='
+              no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
+              hover:opacity-100 transition-opacity duration-300
+              '
+            >
+              About
+          </a>
         </li>
-        <li className="inline-block">
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToWork() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">Work</a>
+
+        {/* Work Link */}
+        <li className='inline-block'>
+          <a href='#' onClick={(e) => { e.preventDefault(); scrollToWork() }}
+            className='
+              no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
+              hover:opacity-100 transition-opacity duration-300
+              '
+            >
+              Work
+          </a>
         </li>
-        <li className="inline-block">
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToExperience() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">Experience</a>
+
+        {/* Experience Link */}
+        <li className='inline-block'>
+          <a href='#' onClick={(e) => { e.preventDefault(); scrollToExperience() }}
+            className='
+              no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
+              hover:opacity-100 transition-opacity duration-300
+              '
+            >
+              Experience
+          </a>
         </li>
-        <li className="inline-block">
-          <a href="#" onClick={(e) => { e.preventDefault(); scrollToContact() }} className="no-underline text-[#e0e0e0] m-5 bg-transparent">Contact</a>
+        
+        {/* Contact Link */}
+        <li className='inline-block'>
+          <a href='#' onClick={(e) => { e.preventDefault(); scrollToContact() }}
+            className='
+              no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
+              hover:opacity-100 transition-opacity duration-300
+              '
+            >
+              Contact
+          </a>
         </li>
+
       </ul>
     </div>
   );
