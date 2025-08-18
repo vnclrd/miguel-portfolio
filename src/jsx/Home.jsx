@@ -14,7 +14,6 @@ function Home() {
           "
         >
 
-        
         <div
           className="
             w-full max-w-2xl flex flex-col  
