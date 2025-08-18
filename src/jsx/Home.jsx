@@ -6,6 +6,7 @@ function Home() {
   return (
     <div id="home" className='flex flex-col lg:flex-row lg:min-h-screen bg-[#0d1b2a]'>
 
+      {/* Left Panel (70%) */}
       <div 
         className="
           flex items-center justify-center bg-[#0d1b2a] px-4
@@ -47,9 +48,11 @@ function Home() {
           </li>
         </div>
       </div>
+
+      {/* Right Panel (30%) */}
       <div 
         className="
-          flex items-center justify-center bg-[#0d1b2a] px-4
+          flex items-center justify-center px-4
           w-full lg:w-[30%] lg:min-h-screen
         "
       >
