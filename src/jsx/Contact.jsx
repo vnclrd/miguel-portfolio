@@ -25,12 +25,12 @@ function Contact() {
             I Am Open To Work.
           </h1>
 
-          <p className="text-[#e0e0e0] ml-0.5 leading-6 mb-5 lg:text-[1rem] lg:font-thin sm:text-[base]">
+          <p className="text-[#e0e0e0] ml-0.5 leading-6 mb-5 lg:text-[0.95rem] lg:font-thin sm:text-[base]">
             I'm excited to learn and grow as I explore opportunities to apply and
             expand my skills in software development.
           </p>
 
-          <p className="text-[#e0e0e0] ml-0.5 leading-6 lg:text-[1rem] lg:font-thin sm:text-base">
+          <p className="text-[#e0e0e0] ml-0.5 leading-6 lg:text-[0.95rem] lg:font-thin sm:text-base">
             In the meantime, if you have any{' '}
             <span className="text-[#00b4d8] font-semibold">ideas</span> or{' '}
             <span className="text-[#00b4d8] font-semibold">want to collaborate</span>{' '}
@@ -51,14 +51,24 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-white w-10 h-10 opacity-50" />
+              <FaLinkedin
+                className="
+                  text-white w-10 h-10 opacity-50
+                  hover:opacity-100 transition duration-300
+                  "
+                />
             </a>
             <a
               href="mailto:miguel.calarde@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SiGmail className="text-white w-10 h-10 opacity-50" />
+              <SiGmail
+                className="
+                  text-white w-10 h-10 opacity-50
+                  hover:opacity-100 transition duration-300
+                  "
+                />
             </a>
           </div>
         </div>
