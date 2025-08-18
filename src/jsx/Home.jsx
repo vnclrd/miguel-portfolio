@@ -13,6 +13,8 @@ function Home() {
           w-full lg:w-[70%] min-h-screen
           "
         >
+
+        
         <div
           className="
             w-full max-w-2xl flex flex-col  
