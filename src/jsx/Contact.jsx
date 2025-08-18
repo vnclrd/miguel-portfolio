@@ -53,7 +53,6 @@ function Contact() {
             >
               <FaLinkedin className="text-white w-10 h-10 opacity-50" />
             </a>
-
             <a
               href="mailto:miguel.calarde@gmail.com"
               target="_blank"
