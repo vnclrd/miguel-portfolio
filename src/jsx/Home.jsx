@@ -30,10 +30,10 @@ function Home() {
           </h1>
 
           <p className="text-[#e0e0e0] ml-0.5 leading-7 text-sm sm:text-base">
-            I'm a developer specializing in{" "}
+            I'm a developer continuously working on my skills in{" "}
             <span className="text-[#00b4d8]">designing</span> and{" "}
-            <span className="text-[#00b4d8]">building</span> systems that deliver
-            convenience and value to the people who use them.
+            <span className="text-[#00b4d8]">building</span> systems that provide
+            convenience and value to users.
           </p>
           <li className="inline-block mt-8 ml-0.5 list-none">
             <a
