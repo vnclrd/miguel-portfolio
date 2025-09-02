@@ -117,79 +117,164 @@ function Work() {
 
       </div>
 
-      {/* Desktop Layout */}
-      <div className="hidden lg:flex lg:flex-row lg:min-h-screen">
 
+
+
+      {/* ============================== Desktop Layout ============================== */}
         {/* Left Panel (70%) */}
-        <div className="flex items-center bg-[#0d1b2a] w-[70%] min-h-screen relative -translate-y-[2.5%] -translate-x-[-2%]">
-          
-          <h1 className='absolute w-[400px] h-[400px] top-20 left-44 text-[#e0e0e0] text-[1.5rem] font-bold'>
-            What I've worked on
-          </h1>
+        <div className="flex items-center justify-center bg-[#0d1b2a] min-h-screen">
 
-          {/* Project 1 */}
-          {/* Image Holder for Project 1 */}
-          <div className='w-[400px] h-[250px] ml-44 mb-40 bg-[#b0bec5] z-20'>
-            <img 
-              src="/miguel-portfolio/images/trainin-aas.jpg"
-              alt="TrainIn"
-              className='w-full h-full object-cover'
-            />
-          </div>
+          {/* Projects Container */}
+          <div className='flex flex-col items-center justify-center text-center w-full h-[600px] bg-black'>
 
-          {/* Image Border */}
-          <div className='absolute w-[400px] h-[250px] transform -translate-y-1/2 mt-32.5 left-38.5 bg-none border-[2px] border-[#fff] z-10'></div>
+            <h1 className='text-[#e0e0e0] text-[1.5rem] font-bold'>
+              What I've worked on
+            </h1>
 
-          {/* Project Title/Subtitle */}
-          <h2 className='absolute top-[22.5%] left-[38rem] text-[#e0e0e0] text-[1.25rem] font-semibold'>TrainIn</h2>
-          <p className='absolute top-[26.5%] left-[38rem] text-gray-400 text-[0.75rem]'>Automated Attendance System</p>
+            {/* Flex Projects */}
+            <div className='flex gap-40'>
 
-          {/* GitHub Link */}
-          <a href="https://github.com/vnclrd/trainin-aas" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[24.5%] left-[57rem] z-40'>
-            <FaGithub
-              className='
-                text-white w-6 h-6 opacity-50
-                hover:opacity-100 transition-opacity duration-300
-                '
-            />
-          </a>
+              {/* Project 1 */}
+              <div className='flex flex-col items-center w-[450px] h-[450px]'>
 
-          {/* Project Description */}
-          <div className='absolute w-[400px] h-[120px] bg-[#000e1e] text-justify left-[35rem] top-[30%] p-3.5 z-30'>
-            <p className='text-[#e0e0e0] text-[0.750rem]'>
-              TrainIn is an automated attendance system designed to <span className='text-[#00b4d8] font-semibold'>record and track attendance</span> before and after a session.
-              It uses NFC chips along with an external reader device to provide a seamless and efficient check-in and check-out process.
-            </p>
-          </div>
+                {/* Project Title/Subtitle */}
+                <div className='flex w-[400px] text-left mb-4'>
 
-          {/* Technologies Used */}
-          <div className='absolute text-gray-500 text-[0.60rem] left-[38rem] mb-1 z-1000'>
-            <div className='flex gap-4'>
-              <p>React Native</p>
-              <p>JavaScript</p>
-              <p>TypeScript</p>
-              <p>Tailwind CSS</p>
-              <p>SQLite</p>
+                  {/* Left Side */}
+                  <div className='w-[50%]'>
+
+                    {/* Title */}
+                    <h2 className='text-[#e0e0e0] text-[1.25rem] font-semibold'>Ulat PH</h2>
+
+                    {/* Subtitle */}
+                    <p className='text-gray-400 text-[0.75rem]'>Reporting Web App</p>
+                  </div>
+                  
+                  {/* Right Side */}
+                  <div className='flex items-center justify-end w-[50%]'>
+
+                    {/* GitHub Link */}
+                    <a href="https://github.com/vnclrd/trainin-aas" target="_blank" rel="noopener noreferrer">
+                      <FaGithub className='text-white w-10 h-10 opacity-50 hover:opacity-100 transition-opacity duration-300' />
+                    </a>
+
+                  </div>
+                </div>
+                
+                {/* Project 1 Image Holder */}
+                <div className='w-[400px] h-[250px]'>
+
+                  {/* Project 1 Image */}
+                  <img 
+                    src="/miguel-portfolio/images/trainin-aas.jpg"
+                    alt="TrainIn"
+                    className='w-full h-full object-cover'
+                  />
+
+                </div>
+
+                {/* Project Description */}
+                <div className='absolute flex items-center justify-center w-[350px] h-[120px] bg-[#000e1e] text-justify p-4 mt-70'>
+
+                  <p className='text-[#e0e0e0] text-[0.750rem]'>
+                    TrainIn is an automated attendance system designed to <span className='text-[#00b4d8] font-semibold'>record and track attendance</span> before and after a session.
+                    It uses NFC chips along with an external reader device to provide a seamless and efficient check-in and check-out process.
+                  </p>
+
+                </div>
+
+                {/* Technologies Used */}
+                <div className='text-gray-500 text-[0.60rem] mt-25 z-1000'>
+
+                  <div className='flex gap-4'>
+
+                    <p>React Native</p>
+                    <p>JavaScript</p>
+                    <p>TypeScript</p>
+                    <p>Tailwind CSS</p>
+                    <p>SQLite</p>
+
+                  </div>
+                </div>
+              </div>
+
+              
+              
+
+              {/* Project 2 */}
+              {/* Project 2 Image Holder */}
+              <div className='w-[400px] h-[250px] bg-[#b0bec5]'>
+                <img 
+                  src="/miguel-portfolio/images/trainin-aas.jpg"
+                  alt="TrainIn"
+                  className='w-full h-full object-cover'
+                />
+              </div>
+
+              {/* Project 3 */}
+              {/* Project 3 Image Holder */}
+              <div className='w-[400px] h-[250px] bg-[#b0bec5]'>
+                <img 
+                  src="/miguel-portfolio/images/instaprint.jpg"
+                  alt="InstaPrint"
+                  className='w-full h-full object-cover'
+                />
+              </div>
+              
+
+
+
+
+
+
+
+
             </div>
-          </div>
 
-          {/* Project 2 */}
-          {/* Image Holder for Project 2 */}
-          <div className='absolute w-[400px] h-[250px] top-[55%] left-[38rem] bg-[#b0bec5] z-20'>
-            <img 
-              src="/miguel-portfolio/images/instaprint.jpg"
-              alt="InstaPrint"
-              className='w-full h-full object-cover'
-            />
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
           </div>
-          {/* Image Border */}
+          
+          
+
+          
+
+          {/* Image Border 
+          <div className='w-[400px] h-[250px] bg-none border-[2px] border-[#fff] z-10'></div>
+          */}
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          {/* Image Border
           <div className='absolute w-[400px] h-[250px] top-[58%] left-[39.25rem] bg-none border-[2px] border-[#90494d] z-10'></div>
+          */}
 
-          {/* Project Title/Subtitle */}
+          {/* Project Title/Subtitle 
           <h2 className='absolute top-[62%] left-[30rem] text-[#e0e0e0] text-[1.25rem] font-semibold'>InstaPrint</h2>
           <p className='absolute top-[66%] left-[26.5rem] text-gray-400 text-[0.75rem]'>Self-Service Printing Kiosk</p>
+          */}
 
-          {/* GitHub Link */}
+          {/* GitHub Link 
           <a href="https://github.com/katrina110/instaprint-flask-" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[64%] left-61.5 z-40'>
             <FaGithub
               className='
@@ -198,8 +283,9 @@ function Work() {
                 '
               />
           </a>
+          */}
 
-          {/* Project Description */}
+          {/* Project Description 
           <div className='absolute w-[400px] h-[120px] bg-[#000e1e] text-justify left-56 top-[69.5%] p-3.5 z-30'>
             <p className='text-[#e0e0e0] text-[0.75rem]'>
               Developed a full-stack printing kiosk that calculates document pricing
@@ -207,8 +293,9 @@ function Work() {
               tracking as well as cashless payments with <span className='text-[#00b4d8] font-semibold'>GCash</span> with integration with <span className='text-[#00b4d8] font-semibold'>PayMongo</span>.
             </p>
           </div>
+          */}
 
-          {/* Technologies Used */}
+          {/* Technologies Used 
           <div className='absolute text-gray-500 text-[0.60rem] left-[16rem] mt-138 z-1000'>
             <div className='flex gap-4'>
               <p>Python</p>
@@ -219,15 +306,11 @@ function Work() {
               <p>MySQL</p>
             </div>
           </div>
+          */}
 
-        </div>
-
-        {/* Right Panel (30%) */}
-        <div className="flex items-center justify-center px-4 w-[30%] lg:min-h-screen">
         </div>
 
       </div>
-    </div>
   )
 }
 
