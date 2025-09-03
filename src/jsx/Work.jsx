@@ -183,7 +183,7 @@ function Work() {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <FaGithub className='text-white w-10 h-10 opacity-50 hover:opacity-100 transition-opacity duration-300' />
+                    <FaGithub className='text-white w-8 h-8 opacity-50 hover:opacity-100 transition-opacity duration-300' />
                   </a>
                 </div>
               </div>
@@ -250,7 +250,7 @@ function Work() {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <FaGithub className='text-white w-10 h-10 opacity-50 hover:opacity-100 transition-opacity duration-300' />
+                    <FaGithub className='text-white w-8 h-8 opacity-50 hover:opacity-100 transition-opacity duration-300' />
                   </a>
                 </div>
               </div>
@@ -311,7 +311,7 @@ function Work() {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <FaGithub className='text-white w-10 h-10 opacity-50 hover:opacity-100 transition-opacity duration-300' />
+                    <FaGithub className='text-white w-8 h-8 opacity-50 hover:opacity-100 transition-opacity duration-300' />
                   </a>
                 </div>
               </div>
