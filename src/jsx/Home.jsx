@@ -17,7 +17,6 @@ function Home() {
         {/* Hero Container */}
         <div className='w-full max-w-2xl flex flex-col items-center text-center'>
 
-          {/* Hi, I am */}
           <p className='text-[#00b4d8] ml-0.5 pb-5 text-sm sm:text-base'>
             Hi, I am
           </p>
