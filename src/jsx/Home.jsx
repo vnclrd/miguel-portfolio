@@ -21,7 +21,6 @@ function Home() {
             Hi, I am
           </p>
 
-          {/* Miguel Ivan Calarde */}
           <h1 className='text-[#00ffff] whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-poppins pb-5'>
             Miguel Ivan Calarde
           </h1>
