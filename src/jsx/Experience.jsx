@@ -87,20 +87,8 @@ function Experience() {
               <div className='w-[400px] h-[250px] bg-[#000e1e] z-20 opacity-25'></div>
 
             </div>
-            
           </div>
-
-          
-
-          
-          
-
-
-
-
-
         </div>
-
       </div>
     </div>
   )
