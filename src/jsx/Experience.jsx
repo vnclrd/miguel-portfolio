@@ -52,13 +52,13 @@ function Experience() {
           <div className='flex flex-col items-center justify-start w-full h-[600px] text-[#e0e0e0] text-[1.5rem] gap-8'>
             <h1 className='text-[#e0e0e0] text-[1.5rem] font-bold'>Where I've Worked</h1>
 
-            <div className='grid grid-cols-2 gap-2'>
+            <div className='grid grid-cols-3 gap-2'>
 
               {/* Experience 1 */}
               <div className='w-[400px] h-[250px] bg-[#000e1e] z-20'>
-                <h1 className='text-[#00b4d8] text-[1rem] font-semibold text-left ml-5 mt-5'>Full Stack WordPress Developer Intern</h1>
-                <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>ROC.PH Digital Marketing Services</p>
-                <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2024 - October 2024</p>
+                <h1 className='text-[#00b4d8] text-[1rem] font-bold text-left ml-5 mt-5'>Junior Back-End Developer</h1>
+                <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>Asticom Technologies Inc.</p>
+                <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>September 2025 - Present</p>
                 <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5'>
                   Developed and optimized ROC.PH Digital Marketing Services' website on WordPress,
                   translating CEO design recommendations into a high-quality, functional platform.
@@ -69,7 +69,20 @@ function Experience() {
 
               {/* Experience 2 */}
               <div className='w-[400px] h-[250px] bg-[#000e1e] z-20'>
-                <h1 className='text-[#00b4d8] text-[1rem] font-semibold text-left ml-5 mt-5'>Front-End Developer Intern</h1>
+                <h1 className='text-[#00b4d8] text-[1rem] font-bold text-left ml-5 mt-5'>Full Stack WordPress Developer Intern</h1>
+                <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>ROC.PH Digital Marketing Services</p>
+                <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2024 - October 2024</p>
+                <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5'>
+                  Developed and optimized ROC.PH Digital Marketing Services' website on WordPress,
+                  translating CEO design recommendations into a high-quality, functional platform.
+                  Collaborated with other departments to integrate web solutions and
+                  ensure cohesive project execution.
+                </p>
+              </div>
+
+              {/* Experience 3 */}
+              <div className='w-[400px] h-[250px] bg-[#000e1e] z-20'>
+                <h1 className='text-[#00b4d8] text-[1rem] font-bold text-left ml-5 mt-5'>Front-End Developer Intern</h1>
                 <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>LexMeet, Inc.</p>
                 <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>August 2023 - October 2023</p>
                 <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5'>
@@ -80,10 +93,13 @@ function Experience() {
                 </p>
               </div>
 
-              {/* Experience 3 */}
+              {/* Experience 4 */}
+              <div className='w-[400px] h-[250px] bg-[#000e1e] z-20 opacity-75'></div>
+
+              {/* Experience 5 */}
               <div className='w-[400px] h-[250px] bg-[#000e1e] z-20 opacity-50'></div>
 
-              {/* Experience 4 */}
+              {/* Experience 6 */}
               <div className='w-[400px] h-[250px] bg-[#000e1e] z-20 opacity-25'></div>
 
             </div>
