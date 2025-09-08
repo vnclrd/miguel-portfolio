@@ -1,4 +1,8 @@
 import { useEffect, useState } from 'react'
+import webIcon from "/images/web-icon.png";
+
+<img src={webIcon} alt="Home" className="w-8 h-8" />
+
 
 function Header() {   
   const [scrolled, setScrolled] = useState(false);
@@ -19,6 +23,10 @@ function Header() {
     document.getElementById('work').scrollIntoView({ behavior: 'smooth' })
   }
 
+  function scrollToHome() {
+    document.getElementById('home').scrollIntoView({ behavior: 'smooth' })
+  }
+
   function scrollToExperience() {
     document.getElementById('experience').scrollIntoView({ behavior: 'smooth' })
   }
@@ -30,30 +38,16 @@ function Header() {
   return (
     <div
       className={`
-        flex flex-row flex-nowrap items-center space-x-4
-        h-15 w-[100%] fixed z-[1000]
-        justify-center bg-[#0d1b2a]
-        
-        // For screen sizes below 1200px (minimized/smaller screens)
-        left-1/2 -translate-x-1/2 transform
-
-        min-[1400px]:w-[25%]
-        min-[1400px]:h-[7.5%]
-        min-[1400px]:left-[85%]
-        min-[1400px]:transform-none
-        min-[1400px]:shadow-none
-        min-[1400px]:top-5
-        min-[1400px]:bg-transparent
-        
-        ${scrolled 
-          ? 'max-[1199px]:shadow-lg max-[1199px]:transition-shadow max-[1199px]:duration-500 max-[1199px]:ease-in-out min-[1200px]:border-[#e0e0e0]' 
-          : 'min-[1200px]:border-transparent'
-        }
+        flex flex-row flex-nowrap items-center
+        h-15 w-[100%] fixed z-1000
+        justify-center bg-[#0d1b2a] lg:bg-amber-500
+        transform-none shadow-none
       `}
     >
+      
       <ul className='flex flex-row flex-nowrap items-center space-x-2 text-[0.75rem]'>
 
-        {/* About Link */}
+        {/* About Link 
         <li className='inline-block'>
           <a href='about' onClick={(e) => { e.preventDefault(); scrollToAbout() }}
             className='
@@ -64,8 +58,9 @@ function Header() {
               About
           </a>
         </li>
+        */}
 
-        {/* Work Link */}
+        {/* Work Link
         <li className='inline-block'>
           <a href='#' onClick={(e) => { e.preventDefault(); scrollToWork() }}
             className='
@@ -76,8 +71,21 @@ function Header() {
               Work
           </a>
         </li>
+        */}
 
-        {/* Experience Link */}
+        {/* Home Link */}
+        <li className='inline-block'>
+          <a href='#' onClick={(e) => { e.preventDefault(); scrollToHome() }}
+            className='
+              no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
+              hover:opacity-100 transition-opacity duration-300
+              '
+            >
+              <img src={webIcon} alt="Web Icon" className='w-10 h-10 ' />
+          </a>
+        </li>
+
+        {/* Experience Link
         <li className='inline-block'>
           <a href='#' onClick={(e) => { e.preventDefault(); scrollToExperience() }}
             className='
@@ -88,8 +96,9 @@ function Header() {
               Experience
           </a>
         </li>
+        */}
         
-        {/* Contact Link */}
+        {/* Contact Link
         <li className='inline-block'>
           <a href='#' onClick={(e) => { e.preventDefault(); scrollToContact() }}
             className='
@@ -100,8 +109,13 @@ function Header() {
               Contact
           </a>
         </li>
-
+        */}
       </ul>
+
+      <div className='w-full h-15 bg-amber-50'>
+
+      </div>
+
     </div>
   );
 }
