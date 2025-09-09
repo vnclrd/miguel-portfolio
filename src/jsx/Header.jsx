@@ -40,14 +40,14 @@ function Header() {
       className={`
         flex flex-row flex-nowrap items-center
         h-15 w-[100%] fixed z-1000
-        justify-center bg-[#0d1b2a] lg:bg-amber-500
+        justify-center bg-[#0d1b2a]
         transform-none shadow-none
       `}
     >
       
       <ul className='flex flex-row flex-nowrap items-center space-x-2 text-[0.75rem]'>
 
-        {/* About Link 
+        {/* About Link */}
         <li className='inline-block'>
           <a href='about' onClick={(e) => { e.preventDefault(); scrollToAbout() }}
             className='
@@ -58,9 +58,8 @@ function Header() {
               About
           </a>
         </li>
-        */}
 
-        {/* Work Link
+        {/* Work Link */}
         <li className='inline-block'>
           <a href='#' onClick={(e) => { e.preventDefault(); scrollToWork() }}
             className='
@@ -71,21 +70,8 @@ function Header() {
               Work
           </a>
         </li>
-        */}
 
-        {/* Home Link */}
-        <li className='inline-block'>
-          <a href='#' onClick={(e) => { e.preventDefault(); scrollToHome() }}
-            className='
-              no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
-              hover:opacity-100 transition-opacity duration-300
-              '
-            >
-              <img src={webIcon} alt="Web Icon" className='w-10 h-10 ' />
-          </a>
-        </li>
-
-        {/* Experience Link
+        {/* Experience Link */}
         <li className='inline-block'>
           <a href='#' onClick={(e) => { e.preventDefault(); scrollToExperience() }}
             className='
@@ -96,9 +82,8 @@ function Header() {
               Experience
           </a>
         </li>
-        */}
         
-        {/* Contact Link
+        {/* Contact Link */}
         <li className='inline-block'>
           <a href='#' onClick={(e) => { e.preventDefault(); scrollToContact() }}
             className='
@@ -109,12 +94,8 @@ function Header() {
               Contact
           </a>
         </li>
-        */}
+        
       </ul>
-
-      <div className='w-full h-15 bg-amber-50'>
-
-      </div>
 
     </div>
   );
