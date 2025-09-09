@@ -360,53 +360,6 @@ function Work() {
             </div>
           </div>
         </div>
-
-        {/* Image Border 
-        <div className='w-[400px] h-[250px] bg-none border-[2px] border-[#fff] z-10'></div>
-        */}
-
-        {/* Image Border
-        <div className='absolute w-[400px] h-[250px] top-[58%] left-[39.25rem] bg-none border-[2px] border-[#90494d] z-10'></div>
-        */}
-
-        {/* Project Title/Subtitle 
-        <h2 className='absolute top-[62%] left-[30rem] text-[#e0e0e0] text-[1.25rem] font-semibold'>InstaPrint</h2>
-        <p className='absolute top-[66%] left-[26.5rem] text-gray-400 text-[0.75rem]'>Self-Service Printing Kiosk</p>
-        */}
-
-        {/* GitHub Link 
-        <a href="https://github.com/katrina110/instaprint-flask-" target="_blank" rel="noopener noreferrer" className='absolute w-[25px] top-[64%] left-61.5 z-40'>
-          <FaGithub
-            className='
-              text-white w-6 h-6 opacity-50
-              hover:opacity-100 transition-opacity duration-300
-              '
-            />
-        </a>
-        */}
-
-        {/* Project Description 
-        <div className='absolute w-[400px] h-[120px] bg-[#000e1e] text-justify left-56 top-[69.5%] p-3.5 z-30'>
-          <p className='text-[#e0e0e0] text-[0.75rem]'>
-            Developed a full-stack printing kiosk that calculates document pricing
-            based on page count, color, and paper size. Utilized <span className='text-[#00b4d8] font-semibold'>Python + Flask</span> and <span className='text-[#00b4d8] font-semibold'>WebSocket-based</span> payment
-            tracking as well as cashless payments with <span className='text-[#00b4d8] font-semibold'>GCash</span> with integration with <span className='text-[#00b4d8] font-semibold'>PayMongo</span>.
-          </p>
-        </div>
-        */}
-
-        {/* Technologies Used 
-        <div className='absolute text-gray-500 text-[0.60rem] left-[16rem] mt-138 z-1000'>
-          <div className='flex gap-4'>
-            <p>Python</p>
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Bootstrap</p>
-            <p>MySQL</p>
-          </div>
-        </div>
-        */}
       </div>
     </div>
   );
