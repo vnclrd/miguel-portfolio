@@ -57,7 +57,7 @@ function Experience() {
               {/* Experience 1 */}
               <div className='w-[400px] h-[250px] bg-[#000e1e] z-20'>
                 <h1 className='text-[#00b4d8] text-[1rem] font-bold text-left ml-5 mt-5'>Junior Back-End Developer</h1>
-                <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>Asticom Technologies Inc.</p>
+                <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>Asticom Technology Inc. – Asti Business Services Inc.</p>
                 <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>September 2025 - Present</p>
                 <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5'>
                   Developed and optimized ROC.PH Digital Marketing Services' website on WordPress,
