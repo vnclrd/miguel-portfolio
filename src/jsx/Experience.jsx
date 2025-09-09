@@ -47,7 +47,7 @@ function Experience() {
       {/* ============================== Desktop Layout ============================== */}
       <div className="hidden lg:flex lg:flex-col lg:min-h-screen">
 
-        <div className="flex items-center justify-center bg-[#0d1b2a] min-h-screen relative">
+        <div className="flex flex-col items-center justify-center bg-[#0d1b2a] min-h-screen relative">
           
           <div className='flex flex-col items-center justify-start w-full h-[600px] text-[#e0e0e0] text-[1.5rem] gap-8'>
             <h1 className='text-[#e0e0e0] text-[1.5rem] font-bold'>Where I've Worked</h1>
@@ -104,7 +104,18 @@ function Experience() {
 
             </div>
           </div>
+
+          <a
+            href="#" 
+            onClick={(e) => { e.preventDefault(); scrollToContact() }}
+            className="text-[#00b4d8] bg-transparent text-[0.75rem] pl-4 pr-4 pt-2.5 pb-2.5 border border-[#00b4d8] hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
+          >
+            Know my experiences
+          </a>
+
         </div>
+
+        
       </div>
     </div>
   )
