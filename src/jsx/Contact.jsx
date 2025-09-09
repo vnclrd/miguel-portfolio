@@ -22,16 +22,15 @@ function Contact() {
         >
 
           <h1 className="text-[#00ffff] whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-poppins pb-5">
-            I Am Open To Work.
+            I Am Open To Collaborations.
           </h1>
 
           <p className="text-[#e0e0e0] ml-0.5 leading-6 mb-5 lg:text-[0.95rem] lg:font-thin sm:text-[base]">
-            I'm excited to learn and grow as I explore opportunities to apply and
-            expand my skills in software development.
+            I am currently employed, but I am still eager to work on projects and collaborations.
           </p>
 
           <p className="text-[#e0e0e0] ml-0.5 leading-6 lg:text-[0.95rem] lg:font-thin sm:text-base">
-            In the meantime, if you have any{' '}
+            If you have any{' '}
             <span className="text-[#00b4d8] font-semibold">ideas</span> or{' '}
             <span className="text-[#00b4d8] font-semibold">want to collaborate</span>{' '}
             on a project with me, you may contact me through these links
