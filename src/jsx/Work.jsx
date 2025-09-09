@@ -1,6 +1,11 @@
 import { FaGithub } from 'react-icons/fa';
 
 function Work() {
+
+  function scrollToContact() {
+    document.getElementById('experience').scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <div id='work' className='bg-[#0d1b2a] min-h-screen'>
       {/* Mobile Layout */}
@@ -144,7 +149,7 @@ function Work() {
       </div>
 
       {/* ============================== Desktop Layout ============================== */}
-      <div className='flex items-center justify-center bg-[#0d1b2a] min-h-screen'>
+      <div className='flex flex-col items-center justify-center bg-[#0d1b2a] min-h-screen'>
         {/* Projects Container */}
         <div className='flex flex-col items-center justify-start text-center w-full h-[600px] gap-12'>
           {/* What I've worked on */}
@@ -357,10 +362,23 @@ function Work() {
                   <p>MySQL</p>
                 </div>
               </div>
+
             </div>
+
           </div>
+
         </div>
+
+        <a
+          href="#" 
+          onClick={(e) => { e.preventDefault(); scrollToContact() }}
+          className="text-[#00b4d8] bg-transparent text-[0.75rem] pl-4 pr-4 pt-2.5 pb-2.5 border border-[#00b4d8] hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
+        >
+          Know my experiences
+        </a>
+
       </div>
+
     </div>
   );
 }

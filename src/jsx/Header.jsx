@@ -1,19 +1,9 @@
-import { useEffect, useState } from 'react'
 import webIcon from "/images/web-icon.png";
 
 <img src={webIcon} alt="Home" className="w-8 h-8" />
 
 
 function Header() {   
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 10);
-    };
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   function scrollToAbout() {
     document.getElementById('about').scrollIntoView({ behavior: 'smooth' })
