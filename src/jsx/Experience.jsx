@@ -1,4 +1,9 @@
 function Experience() {
+
+  function scrollToContact() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })
+  }
+
   return(
     <div id="experience" className='bg-[#0d1b2a] min-h-screen'>
 
@@ -110,7 +115,7 @@ function Experience() {
             onClick={(e) => { e.preventDefault(); scrollToContact() }}
             className="text-[#00b4d8] bg-transparent text-[0.75rem] pl-4 pr-4 pt-2.5 pb-2.5 border border-[#00b4d8] hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
           >
-            Know my experiences
+            Connect with me
           </a>
 
         </div>
