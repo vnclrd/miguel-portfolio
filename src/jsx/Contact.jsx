@@ -40,8 +40,8 @@ function Contact() {
           <div
             className="
               flex w-[250px] h-[50px] mt-8 gap-6
-              justify-center       /* default (smaller screens) */
-              lg:justify-start     /* override for large screens */
+              justify-center
+              lg:justify-start
               items-center
             "
           >
