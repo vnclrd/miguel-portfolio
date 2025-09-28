@@ -7,10 +7,10 @@ function Contact() {
 
       {/* Left Panel (70%) */}
       <div 
-        className="
+        className='
           flex items-center justify-center bg-[#0d1b2a] px-4
           w-full lg:w-[70%] min-h-screen
-          "
+          '
         >
 
         <div
