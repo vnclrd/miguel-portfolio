@@ -370,7 +370,7 @@ function Work() {
         </div>
 
         <a
-          href="#" 
+          href='#' 
           onClick={(e) => { e.preventDefault(); scrollToExperience() }}
           className="text-[#00b4d8] bg-transparent text-[0.75rem] pl-4 pr-4 pt-2.5 pb-2.5 border border-[#00b4d8] hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
         >
