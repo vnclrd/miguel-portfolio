@@ -376,11 +376,9 @@ function Work() {
         >
           Know my experiences
         </a>
-
       </div>
-
     </div>
-  );
+  )
 }
 
 export default Work;
