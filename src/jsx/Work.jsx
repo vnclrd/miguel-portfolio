@@ -8,10 +8,10 @@ function Work() {
   return (
     <div 
       id='work' 
-      className='flex flex-col items-center justify-center bg-[#0d1b2a] min-h-screen w-full px-4 py-10 scroll-mt-12 lg:scroll-mt-0 lg:py-26'
+      className='flex flex-col items-center justify-center bg-[#0d1b2a] min-h-screen w-full px-4 py-10 scroll-mt-10 lg:scroll-mt-0 lg:py-26'
     >
       {/* Section Title - Slightly smaller on mobile */}
-      <h1 className='text-[#e0e0e0] text-[1.3rem] lg:text-[1.5rem] font-bold mb-8 lg:mb-12 text-center'>
+      <h1 className='text-[#e0e0e0] text-[1.3rem] lg:text-[1.5rem] font-bold mb-6 lg:mb-8 text-center'>
         Featured Projects
       </h1>
 
@@ -28,7 +28,7 @@ function Work() {
               <p className='text-gray-400 text-[0.65rem] lg:text-[0.75rem]'>Photo Compilation App</p>
             </div>
             <div className='flex items-center justify-end w-[25%]'>
-              <a href='https://github.com/vnclrd/ulat-ph' target='_blank' rel='noopener noreferrer'>
+              <a href='https://github.com/vnclrd/ala' target='_blank' rel='noopener noreferrer'>
                 <FaGithub className='text-white w-5 h-5 lg:w-8 lg:h-8 opacity-50 hover:opacity-100 transition-opacity' />
               </a>
             </div>
@@ -36,7 +36,7 @@ function Work() {
 
           {/* Image Container - Height reduced to 180px on mobile for sleeker look */}
           <div className='relative w-full h-[180px] lg:h-[150px]'>
-            <img src='/miguel-portfolio/images/ulat-ph.png' alt='Ulat PH' className='w-full h-full object-cover' />
+            <img src='/miguel-portfolio/images/ala.png' alt='Ulat PH' className='w-full h-full object-cover' />
             <div className='absolute inset-0 border-[1px] border-white/20 lg:hidden'></div>
           </div>
 
