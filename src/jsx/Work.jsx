@@ -8,7 +8,7 @@ function Work() {
   return (
     <div 
       id='work' 
-      className='flex flex-col items-center justify-center bg-[#0d1b2a] min-h-screen w-full px-4 py-10 scroll-mt-12 lg:py-26'
+      className='flex flex-col items-center justify-center bg-[#0d1b2a] min-h-screen w-full px-4 py-10 scroll-mt-12 lg:scroll-mt-0 lg:py-26'
     >
       {/* Section Title - Slightly smaller on mobile */}
       <h1 className='text-[#e0e0e0] text-[1.3rem] lg:text-[1.5rem] font-bold mb-8 lg:mb-12 text-center'>
