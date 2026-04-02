@@ -28,8 +28,8 @@ function About() {
             and expand my skills in software development.
           </p>
 
-          {/* CTA Button */}
-          <div className="flex justify-center lg:justify-start">
+          {/* DESKTOP BUTTON: Visible only on large screens */}
+          <div className="hidden lg:flex justify-start">
             <a
               href="#" 
               onClick={(e) => { e.preventDefault(); scrollToWork() }}
@@ -61,6 +61,17 @@ function About() {
             <p className='text-[0.8rem] text-[#b0bec5] italic'>Polytechnic University of the Philippines</p>
             <p className='text-[0.8rem] text-[#b0bec5] italic'>BS Computer Engineering</p>
             <p className='text-[0.8rem] text-[#b0bec5] italic'>Batch 2025</p>
+          </div>
+
+          {/* MOBILE BUTTON: Visible only on small/medium screens, placed at the bottom */}
+          <div className="flex lg:hidden justify-center mt-10">
+            <a
+              href="#" 
+              onClick={(e) => { e.preventDefault(); scrollToWork() }}
+              className="text-[#00b4d8] bg-transparent text-[0.75rem] px-8 py-3 border border-[#00b4d8] hover:bg-[#00b4d8] hover:text-white transition-colors duration-300"
+            >
+              Check out my work!
+            </a>
           </div>
 
         </div>
