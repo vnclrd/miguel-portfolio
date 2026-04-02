@@ -8,7 +8,7 @@ function Home() {
       {/* Reduced max-width slightly for better line-length on laptops */}
       <div className='w-full max-w-3xl flex flex-col items-center text-center'>
         
-        <p className='text-[#00b4d8] text-xl md:text-2xl font-medium tracking-wide'>
+        <p className='text-[#00b4d8] text-xl md:text-2xl font-medium tracking-wide mb-1'>
           Hi, I am
         </p>
         

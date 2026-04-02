@@ -4,9 +4,12 @@ function scrollToWork() {
 
 function About() {
   return (
-    <div id="about" className='flex items-center justify-center bg-[#0d1b2a] min-h-screen px-4 py-8 lg:p-0'>
+    <div 
+      id="about" 
+      className='flex items-center justify-center bg-[#0d1b2a] min-h-screen px-4 py-8 lg:p-0 scroll-mt-4 md:scroll-mt-6'
+    >
       
-      {/* Main Container: Stacked on mobile, Side-by-side on desktop */}
+      {/* Main Container */}
       <div className='flex flex-col lg:flex-row items-center justify-center max-w-md lg:max-w-[800px] lg:h-[400px] gap-8 lg:gap-0'>
         
         {/* Left Side (Content) */}
@@ -28,7 +31,7 @@ function About() {
             and expand my skills in software development.
           </p>
 
-          {/* DESKTOP BUTTON: Visible only on large screens */}
+          {/* DESKTOP BUTTON */}
           <div className="hidden lg:flex justify-start">
             <a
               href="#" 
@@ -43,7 +46,6 @@ function About() {
         {/* Right Side (Image & Education) */}
         <div className='w-full lg:w-[50%] flex flex-col items-center lg:items-end justify-center'>
           
-          {/* Image Container with Border Effect */}
           <div className='relative mb-6 lg:mb-10'>
             <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] bg-gray-800 relative z-10'>
               <img 
@@ -52,18 +54,16 @@ function About() {
                 className='w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300'
               />
             </div>
-            {/* The Border Box */}
             <div className='absolute top-2 left-2 lg:top-5 lg:left-5 w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] border-[2px] border-[#00b4d8] z-0'></div>
           </div>
 
-          {/* Education Info */}
           <div className='text-center lg:text-right'>
             <p className='text-[0.8rem] text-[#b0bec5] italic'>Polytechnic University of the Philippines</p>
             <p className='text-[0.8rem] text-[#b0bec5] italic'>BS Computer Engineering</p>
             <p className='text-[0.8rem] text-[#b0bec5] italic'>Batch 2025</p>
           </div>
 
-          {/* MOBILE BUTTON: Visible only on small/medium screens, placed at the bottom */}
+          {/* MOBILE BUTTON */}
           <div className="flex lg:hidden justify-center mt-10">
             <a
               href="#" 
