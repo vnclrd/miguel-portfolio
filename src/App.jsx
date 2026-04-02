@@ -9,21 +9,17 @@ import Footer from './jsx/Footer.jsx'
 
 function App() {
   return (
-    <>
+    <div className="w-full min-h-screen bg-[#0d1b2a] overflow-x-hidden">
       <Header />
-
-      <Home />
-
-      <About />
-
-      <Projects />
-
-      <Experience />
-
-      <Contact />
-
+      <main>
+        <Home />
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
+      </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

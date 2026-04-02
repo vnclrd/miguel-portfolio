@@ -1,28 +1,28 @@
 import webIcon from "/images/web-icon.png";
 
-<img src={webIcon} alt="Home" className="w-8 h-8" />
+<img src={webIcon} alt="Home" className="w-8 h-8" />;
 
-
-function Header() {   
-
+function Header() {
   function scrollToAbout() {
-    document.getElementById('about').scrollIntoView({ behavior: 'smooth' })
+    document.getElementById("about").scrollIntoView({ behavior: "smooth" });
   }
 
   function scrollToWork() {
-    document.getElementById('work').scrollIntoView({ behavior: 'smooth' })
+    document.getElementById("work").scrollIntoView({ behavior: "smooth" });
   }
 
   function scrollToHome() {
-    document.getElementById('home').scrollIntoView({ behavior: 'smooth' })
+    document.getElementById("home").scrollIntoView({ behavior: "smooth" });
   }
 
   function scrollToExperience() {
-    document.getElementById('experience').scrollIntoView({ behavior: 'smooth' })
+    document
+      .getElementById("experience")
+      .scrollIntoView({ behavior: "smooth" });
   }
 
   function scrollToContact() {
-    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
   }
 
   return (
@@ -34,61 +34,77 @@ function Header() {
         transform-none shadow-none
       `}
     >
-      
-      <ul className='flex flex-row flex-nowrap items-center space-x-2 text-[0.75rem]'>
-
+      <ul className="flex flex-row flex-nowrap items-center space-x-2 text-[0.75rem]">
         {/* About Link */}
-        <li className='inline-block'>
-          <a href='about' onClick={(e) => { e.preventDefault(); scrollToAbout() }}
-            className='
+        <li className="inline-block">
+          <a
+            href="about"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToAbout();
+            }}
+            className="
               no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
               hover:opacity-100 transition-opacity duration-300
-              '
-            >
-              About
+              "
+          >
+            About
           </a>
         </li>
 
         {/* Work Link */}
-        <li className='inline-block'>
-          <a href='#' onClick={(e) => { e.preventDefault(); scrollToWork() }}
-            className='
+        <li className="inline-block">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToWork();
+            }}
+            className="
               no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
               hover:opacity-100 transition-opacity duration-300
-              '
-            >
-              Work
+              "
+          >
+            Work
           </a>
         </li>
 
         {/* Experience Link */}
-        <li className='inline-block'>
-          <a href='#' onClick={(e) => { e.preventDefault(); scrollToExperience() }}
-            className='
+        <li className="inline-block">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToExperience();
+            }}
+            className="
               no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
               hover:opacity-100 transition-opacity duration-300
-              '
-            >
-              Experience
+              "
+          >
+            Experience
           </a>
         </li>
-        
-        {/* Contact Link */}
-        <li className='inline-block'>
-          <a href='#' onClick={(e) => { e.preventDefault(); scrollToContact() }}
-            className='
-              no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
-              hover:opacity-100 transition-opacity duration-300
-              '
-            >
-              Contact
-          </a>
-        </li>
-        
-      </ul>
 
+        {/* Contact Link */}
+        <li className="inline-block">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToContact();
+            }}
+            className="
+              no-underline text-[#e0e0e0] m-5 bg-transparent opacity-75
+              hover:opacity-100 transition-opacity duration-300
+              "
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
 
-export default Header
+export default Header;
