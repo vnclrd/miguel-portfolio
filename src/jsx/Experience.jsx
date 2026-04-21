@@ -61,14 +61,11 @@ function Experience() {
 
               {/* Experience 1 */}
               <div className='w-[400px] h-[250px] bg-[#000e1e] z-20'>
-                <h1 className='text-[#00b4d8] text-[1rem] font-bold text-left ml-5 mt-5'>Junior Back-End Developer</h1>
+                <h1 className='text-[#00b4d8] text-[1rem] font-bold text-left ml-5 mt-5'>Back-End Web Developer (Junior)</h1>
                 <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mt-0.5'>Asticom Technology Inc. – Asti Business Services Inc.</p>
                 <p className='text-[#e0e0e0] text-[0.75rem] italic text-left ml-5 mt-0.5'>September 2025 - Present</p>
                 <p className='text-[#e0e0e0] text-[0.8rem] text-left ml-5 mr-5 mt-5'>
-                  Developed and optimized ROC.PH Digital Marketing Services' website on WordPress,
-                  translating CEO design recommendations into a high-quality, functional platform.
-                  Collaborated with other departments to integrate web solutions and
-                  ensure cohesive project execution.
+                  Contributing as a Back-End Web Developer under Asti Business Services Inc. (ABSI), part of the Asticom Group of Companies, supporting projects under the Asticom Technology Inc. Focused on continuous learning and contributing to scalable backend systems while growing skills in modern backend development practices.
                 </p>
               </div>
 
